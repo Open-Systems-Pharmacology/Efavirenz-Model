@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Efavirenz",
-            "Path": "C:/Projects/Efavirenz/Evaluation-plan-Efavirenz/Evaluation/Input/Efavirenz.json",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Model/master/Efavirenz.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
