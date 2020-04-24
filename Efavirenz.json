@@ -1055,388 +1055,6 @@
       ]
     },
     {
-      "Name": "Kharasch2102_CYP3A4-RefConc-Increased",
-      "Seed": 356098240,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "WhiteAmerican_NHANES_1997",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 22.0,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 71.0,
-          "Unit": "kg"
-        }
-      },
-      "Molecules": [
-        {
-          "Name": "CYP1A2",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.00029559748428,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Kidney",
-              "Value": 4.4025157233E-06,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Lung",
-              "Value": 2.4947589099E-05,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP1A2"
-          }
-        },
-        {
-          "Name": "CYP2B6",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0021211129296,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0063502454992,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.1043535188,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.5970540098,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0703109656,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0703109656,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0703109656,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0703109656,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0703109656,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0703109656,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.002084,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0003935,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.002683428126,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0002135,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0364693048,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0140700605
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0140700605
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0140700605
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0140700605
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0140700605
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 7.6746751712,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Alfentanil_IV_Kharasch2012' on 2019-01-08 17:03"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041810344828,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.1681034483,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.1620689655,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.5379310345,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.5379310345,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.5379310345,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.5379310345,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.5379310345,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.5379310345,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          }
-        },
-        {
-          "Name": "CYP2A6",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.00052810287531,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0051148677937,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "Name": "Garg2013",
       "Seed": 450121416,
       "OriginData": {
@@ -3093,162 +2711,6 @@
           "Value": 0.0
         }
       ]
-    },
-    {
-      "Name": "Alfentanil",
-      "IsSmallMolecule": true,
-      "PlasmaProteinBindingPartner": "Glycoprotein",
-      "Lipophilicity": [
-        {
-          "Name": "Fit",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 1.8463211883,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-              }
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Healthy",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.1,
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "Baneyx 2014",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 992.0,
-              "Unit": "mg/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.5,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
-              }
-            }
-          ]
-        }
-      ],
-      "IntestinalPermeability": [
-        {
-          "Name": "Fit",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 3.48E-06,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
-              }
-            }
-          ]
-        }
-      ],
-      "Permeability": [
-        {
-          "Name": "fit",
-          "Parameters": [
-            {
-              "Name": "Permeability",
-              "Value": 0.0068752756625,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-              }
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 6.5,
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Description": "Hanke 2018"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "MetabolizationIntrinsic_FirstOrder",
-          "DataSource": "1st order CL",
-          "Species": "Human",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "Intrinsic clearance",
-              "Value": 0.5272297928,
-              "Unit": "l/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 0.06,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
-              }
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Molecular weight",
-          "Value": 416.52,
-          "Unit": "g/mol",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Description": "Drugbank"
-          }
-        }
-      ]
     }
   ],
   "Formulations": [
@@ -3899,160 +3361,6 @@
       "TimeUnit": "h"
     },
     {
-      "Name": "Kharasch2012_Efavirenz_600mg_qd",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 600.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 16.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Kharasch2012_Alfentanil_PO_IV",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "IntravenousBolus",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 0.015,
-                  "Unit": "mg/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 360.5,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Schema 2",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 0.043,
-                  "Unit": "mg/kg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 336.5,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Kharasch2012_Alfentanil_IV_0h",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "IntravenousBolus",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 0.015,
-                  "Unit": "mg/kg"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
       "Name": "Dooley2012_1200mg",
       "DosingInterval": "Single",
       "Schemas": [
@@ -4341,28 +3649,6 @@
       ]
     },
     {
-      "Name": "Kharasch2012_Alfentanil_PO_0h",
-      "ApplicationType": "Oral",
-      "DosingInterval": "Single",
-      "Parameters": [
-        {
-          "Name": "Start time",
-          "Value": 0.0,
-          "Unit": "h"
-        },
-        {
-          "Name": "InputDose",
-          "Value": 0.043,
-          "Unit": "mg/kg"
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ]
-    },
-    {
       "Name": "Soon 2010 - 600 mg MD over 28 days",
       "ApplicationType": "Oral",
       "DosingInterval": "DI_24",
@@ -4395,10 +3681,11 @@
   ],
   "Simulations": [
     {
-      "Name": "Ogburn 2010, 600mg SD",
+      "Name": "Mouly 2002, 200mg MD",
       "Model": "4Comp",
       "ObservedData": [
-        "Ogburn2010_600mg"
+        "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)",
+        "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -4430,7 +3717,7 @@
             },
             {
               "Name": "End time",
-              "Value": 73.0,
+              "Value": 240.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -4446,7 +3733,52 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|600mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4454,7 +3786,7 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "WhiteAmerican_standard",
+      "Individual": "Mouly2002",
       "Compounds": [
         {
           "Name": "Efavirenz",
@@ -4494,7 +3826,7 @@
             }
           ],
           "Protocol": {
-            "Name": "600mg_singleDose",
+            "Name": "Mouly2002_200mg",
             "Formulations": [
               {
                 "Name": "Sustiva",
@@ -4514,8 +3846,6 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 72.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -4527,8 +3857,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 400.0,
-              "Max": 2621.639,
+              "Min": 150.0,
+              "Max": 2641.624,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -4537,28 +3867,39 @@
           ],
           "Curves": [
             {
-              "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Mouly 2002, 200mg MD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Ogburn 2010, 600mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "Y": "Mouly 2002, 200mg MD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 5
+                "LegendIndex": 1
               }
             },
             {
-              "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration ",
-              "X": "Ogburn2010_600mg|Time ",
-              "Y": "Ogburn 2010, 600mg SD|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|Concentration ",
+              "Name": "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 6,
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz\nOgburn 2010, 600mg SD\n2020-03-19 11:53"
+          "OriginText": "Efavirenz\nMouly 2002, 200mg MD\n2020-03-19 13:36"
         }
       ],
       "Interactions": [
@@ -4575,10 +3916,11 @@
       ]
     },
     {
-      "Name": "Malvestutto 2014, 600mg PO OD",
+      "Name": "Mouly 2002, 400mg MD",
       "Model": "4Comp",
       "ObservedData": [
-        "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)"
+        "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)",
+        "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -4591,47 +3933,13 @@
             },
             {
               "Name": "End time",
-              "Value": 216.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 216.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 220.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Value": 2.0,
+              "Unit": "h"
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Unit": "pts/h"
             }
           ]
         },
@@ -4639,15 +3947,12 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 220.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Value": 2.0,
+              "Unit": "h"
             },
             {
               "Name": "End time",
-              "Value": 242.0,
+              "Value": 240.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -4663,52 +3968,52 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Garg2013|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Garg2013|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Garg2013|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Garg2013|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Garg2013|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Garg2013|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Garg2013|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Garg2013|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Garg2013|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Garg2013|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4716,7 +4021,7 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "WhiteAmerican_standard",
+      "Individual": "Mouly2002",
       "Compounds": [
         {
           "Name": "Efavirenz",
@@ -4756,7 +4061,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Garg2013",
+            "Name": "Mouly2002_400mg",
             "Formulations": [
               {
                 "Name": "Sustiva",
@@ -4776,8 +4081,6 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 213.0959,
-              "Max": 243.6457,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -4789,8 +4092,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 1000.0,
-              "Max": 3845.495,
+              "Min": 200.0,
+              "Max": 3388.104,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -4799,28 +4102,39 @@
           ],
           "Curves": [
             {
-              "Name": "Malvestutto 2014, 600mg PO OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Mouly 2002, 400mg MD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Malvestutto 2014, 600mg PO OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "Y": "Mouly 2002, 400mg MD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|Time",
-              "Y": "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "Name": "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
+            },
+            {
+              "Name": "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FFA500",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz\nMalvestutto 2014, 600mg PO OD\n2020-03-19 11:54"
+          "OriginText": "Efavirenz\nMouly 2002, 400mg MD\n2020-03-19 13:37"
         }
       ],
       "Interactions": [
@@ -5377,12 +4691,10 @@
       ]
     },
     {
-      "Name": "Liu 2008, 400 mg PO OD",
+      "Name": "Ogburn 2010, 600mg SD",
       "Model": "4Comp",
       "ObservedData": [
-        "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)",
-        "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)",
-        "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)"
+        "Ogburn2010_600mg"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -5395,47 +4707,13 @@
             },
             {
               "Name": "End time",
-              "Value": 240.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 240.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 244.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Value": 2.0,
+              "Unit": "h"
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Unit": "pts/h"
             }
           ]
         },
@@ -5443,15 +4721,12 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 244.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Value": 2.0,
+              "Unit": "h"
             },
             {
               "Name": "End time",
-              "Value": 456.0,
+              "Value": 73.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -5467,97 +4742,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_17|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_18|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_19|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|600mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -5605,7 +4790,7 @@
             }
           ],
           "Protocol": {
-            "Name": "400 mg PO OD over 18 days",
+            "Name": "600mg_singleDose",
             "Formulations": [
               {
                 "Name": "Sustiva",
@@ -5625,6 +4810,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
+              "Min": 0.0,
+              "Max": 72.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -5637,7 +4824,7 @@
               "GridLines": false,
               "Visible": true,
               "Min": 400.0,
-              "Max": 4921.875,
+              "Max": 2621.639,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -5646,252 +4833,28 @@
           ],
           "Curves": [
             {
-              "Name": "Liu 2008, 400 mg PO OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Liu 2008, 400 mg PO OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "Y": "Ogburn 2010, 600mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 1
+                "LegendIndex": 5
               }
             },
             {
-              "Name": "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)|Time",
-              "Y": "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Ogburn2010_600mg|Time ",
+              "Y": "Ogburn 2010, 600mg SD|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|Concentration ",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|Time",
-              "Y": "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FFA500",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|Time",
-              "Y": "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 4,
+                "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz\nLiu 2008, 400 mg PO OD\n2020-03-19 12:08"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
-      ]
-    },
-    {
-      "Name": "Damle 2008, 600 mg PO OD",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 216.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "European",
-      "Compounds": [
-        {
-          "Name": "Efavirenz",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Schmitt",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP1A2-Ward2003",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2B6-Ward2003",
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "Name": "CYP3A4-Ward2003",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "CYP3A5-Ward2003",
-              "MoleculeName": "CYP3A5"
-            },
-            {
-              "Name": "CYP2A6-Ogburn2010",
-              "MoleculeName": "CYP2A6"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "600 mg OD over 9 days",
-            "Formulations": [
-              {
-                "Name": "Sustiva",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 500.0,
-              "Max": 5651.558,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Damle 2008, 600 mg PO OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Damle 2008, 600 mg PO OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)|Time",
-              "Y": "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz\nDamle 2008, 600 mg PO OD\n2020-03-19 12:09"
+          "OriginText": "Efavirenz\nOgburn 2010, 600mg SD\n2020-03-19 11:53"
         }
       ],
       "Interactions": [
@@ -7341,11 +6304,12 @@
       ]
     },
     {
-      "Name": "Mouly 2002, 200mg MD",
+      "Name": "Liu 2008, 400 mg PO OD",
       "Model": "4Comp",
       "ObservedData": [
-        "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)",
-        "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)"
+        "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)",
+        "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)",
+        "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -7358,13 +6322,19 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
+              "Value": 240.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         },
@@ -7372,12 +6342,43 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
+              "Value": 240.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "End time",
-              "Value": 240.0,
+              "Value": 244.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 244.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 456.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -7393,52 +6394,97 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Mouly2002_200mg|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400 mg PO OD over 18 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -7446,7 +6492,7 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "Mouly2002",
+      "Individual": "WhiteAmerican_standard",
       "Compounds": [
         {
           "Name": "Efavirenz",
@@ -7486,7 +6532,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Mouly2002_200mg",
+            "Name": "400 mg PO OD over 18 days",
             "Formulations": [
               {
                 "Name": "Sustiva",
@@ -7517,8 +6563,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 150.0,
-              "Max": 2641.624,
+              "Min": 400.0,
+              "Max": 4921.875,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -7527,253 +6573,18 @@
           ],
           "Curves": [
             {
-              "Name": "Mouly 2002, 200mg MD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Liu 2008, 400 mg PO OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Mouly 2002, 200mg MD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "Y": "Liu 2008, 400 mg PO OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|Time",
-              "Y": "Mouly 2002 - 200 mg, Day 1 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|Time",
-              "Y": "Mouly 2002 - 200 mg, Day 10 - Efavirenz - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF8000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz\nMouly 2002, 200mg MD\n2020-03-19 13:36"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
-      ]
-    },
-    {
-      "Name": "Mouly 2002, 400mg MD",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)",
-        "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 240.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Mouly2002_400mg|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Mouly2002",
-      "Compounds": [
-        {
-          "Name": "Efavirenz",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Schmitt",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP1A2-Ward2003",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP2B6-Ward2003",
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "Name": "CYP3A4-Ward2003",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "CYP3A5-Ward2003",
-              "MoleculeName": "CYP3A5"
-            },
-            {
-              "Name": "CYP2A6-Ogburn2010",
-              "MoleculeName": "CYP2A6"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Mouly2002_400mg",
-            "Formulations": [
-              {
-                "Name": "Sustiva",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 200.0,
-              "Max": 3388.104,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Mouly 2002, 400mg MD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Mouly 2002, 400mg MD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|Time",
-              "Y": "Mouly 2002 - 400 mg, Day 1 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "Name": "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -7782,19 +6593,30 @@
               }
             },
             {
-              "Name": "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|Time",
-              "Y": "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "Name": "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Liu 2008 - Group 2, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FFA500",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
+            },
+            {
+              "Name": "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Liu 2008 - Group 2, efavirenz + placebo - Efavirenz - PO - 400 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz\nMouly 2002, 400mg MD\n2020-03-19 13:37"
+          "OriginText": "Efavirenz\nLiu 2008, 400 mg PO OD\n2020-03-19 12:08"
         }
       ],
       "Interactions": [
@@ -7811,35 +6633,13 @@
       ]
     },
     {
-      "Name": "Soon 2010, 600mg MD over 28 days",
+      "Name": "Malvestutto 2014, 600mg PO OD",
       "Model": "4Comp",
       "ObservedData": [
-        "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)"
+        "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)"
       ],
       "Solver": {},
       "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 672.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 676.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
         {
           "Parameters": [
             {
@@ -7849,7 +6649,7 @@
             },
             {
               "Name": "End time",
-              "Value": 672.0,
+              "Value": 216.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -7858,7 +6658,10 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         },
@@ -7866,7 +6669,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 676.0,
+              "Value": 216.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -7874,7 +6677,35 @@
             },
             {
               "Name": "End time",
-              "Value": 696.0,
+              "Value": 220.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 220.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 242.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -7890,147 +6721,52 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Garg2013|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Garg2013|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Garg2013|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Garg2013|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Garg2013|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Garg2013|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Garg2013|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Garg2013|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Garg2013|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_18|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_19|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_20|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_21|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_22|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_23|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_24|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_25|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_26|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_27|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_28|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_29|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Garg2013|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -8038,7 +6774,7 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "Huang2012",
+      "Individual": "WhiteAmerican_standard",
       "Compounds": [
         {
           "Name": "Efavirenz",
@@ -8078,7 +6814,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Soon 2010 - 600 mg MD over 28 days",
+            "Name": "Garg2013",
             "Formulations": [
               {
                 "Name": "Sustiva",
@@ -8098,8 +6834,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 670.0,
-              "Max": 696.0,
+              "Min": 213.0959,
+              "Max": 243.6457,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -8112,7 +6848,7 @@
               "GridLines": false,
               "Visible": true,
               "Min": 1000.0,
-              "Max": 10000.0,
+              "Max": 3845.495,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -8121,18 +6857,18 @@
           ],
           "Curves": [
             {
-              "Name": "Soon 2010, 600mg MD over 28 days-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Malvestutto 2014, 600mg PO OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Soon 2010, 600mg MD over 28 days|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "Y": "Malvestutto 2014, 600mg PO OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "Name": "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|Time",
+              "Y": "Malvestutto 2014 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -8142,7 +6878,209 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz\nSoon 2010, 600mg MD over 28 days\n2020-03-19 13:41"
+          "OriginText": "Efavirenz\nMalvestutto 2014, 600mg PO OD\n2020-03-19 11:54"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ]
+    },
+    {
+      "Name": "Damle 2008, 600 mg PO OD",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 216.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|600 mg OD over 9 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European",
+      "Compounds": [
+        {
+          "Name": "Efavirenz",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Schmitt",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP1A2-Ward2003",
+              "MoleculeName": "CYP1A2"
+            },
+            {
+              "Name": "CYP2B6-Ward2003",
+              "MoleculeName": "CYP2B6"
+            },
+            {
+              "Name": "CYP3A4-Ward2003",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A5-Ward2003",
+              "MoleculeName": "CYP3A5"
+            },
+            {
+              "Name": "CYP2A6-Ogburn2010",
+              "MoleculeName": "CYP2A6"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "600 mg OD over 9 days",
+            "Formulations": [
+              {
+                "Name": "Sustiva",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 500.0,
+              "Max": 5651.558,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Damle 2008, 600 mg PO OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Damle 2008, 600 mg PO OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Damle 2008 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Efavirenz\nDamle 2008, 600 mg PO OD\n2020-03-19 12:09"
         }
       ],
       "Interactions": [
@@ -9960,14 +8898,35 @@
       ]
     },
     {
-      "Name": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD",
+      "Name": "Soon 2010, 600mg MD over 28 days",
       "Model": "4Comp",
       "ObservedData": [
-        "Kharasch 2012 - Alfenatil IV + efavirenz - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
-        "Kharasch 2012 - Alfenatil PO + efavirenz - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)"
+        "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)"
       ],
       "Solver": {},
       "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 672.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 676.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
         {
           "Parameters": [
             {
@@ -9977,63 +8936,7 @@
             },
             {
               "Name": "End time",
-              "Value": 336.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 336.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 338.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 338.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 360.0,
+              "Value": 672.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -10050,7 +8953,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 360.0,
+              "Value": 676.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -10058,35 +8961,7 @@
             },
             {
               "Name": "End time",
-              "Value": 362.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 362.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 368.0,
+              "Value": 696.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -10102,316 +8977,156 @@
       ],
       "Parameters": [
         {
-          "Path": "Alfentanil|Intestinal permeability (transcellular)",
-          "Value": 0.00057373577138,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Applications|Kharasch2012_Alfentanil_PO_IV|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_22|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_23|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch2012_Efavirenz_600mg_qd|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_24|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_29|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Path": "Applications|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "Kharasch2102_CYP3A4-RefConc-Increased",
+      "Individual": "Huang2012",
       "Compounds": [
-        {
-          "Name": "Alfentanil",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "fit",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Fit",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-1st order CL",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Kharasch2012_Alfentanil_PO_IV",
-            "Formulations": [
-              {
-                "Name": "Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
         {
           "Name": "Efavirenz",
           "CalculationMethods": [
@@ -10450,7 +9165,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Kharasch2012_Efavirenz_600mg_qd",
+            "Name": "Soon 2010 - 600 mg MD over 28 days",
             "Formulations": [
               {
                 "Name": "Sustiva",
@@ -10470,8 +9185,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 360.4178,
-              "Max": 367.9005,
+              "Min": 670.0,
+              "Max": 696.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -10483,8 +9198,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.002276344,
-              "Max": 115.7104,
+              "Min": 1000.0,
+              "Max": 10000.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -10493,145 +9208,28 @@
           ],
           "Curves": [
             {
-              "Name": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Soon 2010, 600mg MD over 28 days-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "Y": "Soon 2010, 600mg MD over 28 days|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Visible": false,
                 "Color": "#FF0000",
-                "LegendIndex": 7
+                "LegendIndex": 1
               }
             },
             {
-              "Name": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "Name": "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
               "CurveOptions": {
-                "Color": "#00C000",
-                "LegendIndex": 8
-              }
-            },
-            {
-              "Name": "Kharasch 2012 - Alfenatil IV + efavirenz - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Kharasch 2012 - Alfenatil IV + efavirenz - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|Time",
-              "Y": "Kharasch 2012 - Alfenatil IV + efavirenz - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#00C000",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Kharasch 2012 - Alfenatil PO + efavirenz - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Kharasch 2012 - Alfenatil PO + efavirenz - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)|Time",
-              "Y": "Kharasch 2012 - Alfenatil PO + efavirenz - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C000",
-                "LegendIndex": 10,
+                "Color": "#FF0000",
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
           "Name": "Time Profile Analysis",
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Efavirenz\nKharasch 2012, Alfentanil + Efavirenz 600 mg OD\n2020-03-19 14:13"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 336.5,
-              "Max": 340.1368,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.3,
-              "Max": 50.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#00C000",
-                "LegendIndex": 8
-              }
-            },
-            {
-              "Name": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#FF0000",
-                "LegendIndex": 7
-              }
-            },
-            {
-              "Name": "Kharasch 2012 - Alfenatil IV + efavirenz - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Kharasch 2012 - Alfenatil IV + efavirenz - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|Time",
-              "Y": "Kharasch 2012 - Alfenatil IV + efavirenz - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#0000FF",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Kharasch 2012 - Alfenatil PO + efavirenz - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Kharasch 2012 - Alfenatil PO + efavirenz - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)|Time",
-              "Y": "Kharasch 2012 - Alfenatil PO + efavirenz - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#00C000",
-                "LegendIndex": 10,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis 1",
-          "FontAndSize": {
-            "ChartWidth": 800,
-            "ChartHeight": 500,
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "OriginText": "Efavirenz\nKharasch 2012, Alfentanil + Efavirenz 600 mg OD\n2020-03-19 14:13"
+          "OriginText": "Efavirenz\nSoon 2010, 600mg MD over 28 days\n2020-03-19 13:41"
         }
       ],
       "Interactions": [
@@ -10644,663 +9242,6 @@
           "Name": "CYP3A4-Shou2008",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Efavirenz"
-        }
-      ]
-    },
-    {
-      "Name": "Kharasch 2012, Alfentanil IV alone",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Kharasch 2012 - Alfenatil IV alone - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 8.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Kharasch2102_CYP3A4-RefConc-Increased",
-      "Compounds": [
-        {
-          "Name": "Alfentanil",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "fit",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Fit",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-1st order CL",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Kharasch2012_Alfentanil_IV_0h"
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Kharasch 2012, Alfentanil IV alone-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Kharasch 2012, Alfentanil IV alone|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#00C000",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "Kharasch 2012 - Alfenatil IV alone - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Kharasch 2012 - Alfenatil IV alone - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|Time",
-              "Y": "Kharasch 2012 - Alfenatil IV alone - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#00C000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz\nKharasch 2012, Alfentanil IV alone\n2020-03-19 14:11"
-        }
-      ]
-    },
-    {
-      "Name": "Kharasch 2012, Alfentanil PO alone",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Kharasch 2012 - Alfenatil PO alone - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 8.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Alfentanil|Intestinal permeability (transcellular)",
-          "Value": 0.00057373577138,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Applications|Kharasch2012_Alfentanil_PO_0h|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (interstitial->intracellular)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alfentanil|P (intracellular->interstitial)",
-          "Value": 0.00054148029829,
-          "Unit": "cm/min",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Kharasch2102_CYP3A4-RefConc-Increased",
-      "Compounds": [
-        {
-          "Name": "Alfentanil",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "fit",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Fit",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-1st order CL",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Kharasch2012_Alfentanil_PO_0h",
-            "Formulations": [
-              {
-                "Name": "Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 8.181398,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.3,
-              "Max": 50.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Kharasch 2012, Alfentanil PO alone-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Kharasch 2012, Alfentanil PO alone|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#00C000",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "Kharasch 2012 - Alfenatil PO alone - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)-Alfentanil-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Kharasch 2012 - Alfenatil PO alone - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)|Time",
-              "Y": "Kharasch 2012 - Alfenatil PO alone - Alfentanil - PO - 43 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#00C000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz\nKharasch 2012, Alfentanil PO alone\n2020-03-19 14:10"
         }
       ]
     }
@@ -17449,10 +15390,7 @@
         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD",
         "Katzenmaier 2010, Midazolam alone",
         "Mikus 2017, Midazolam + Efavirenz 400mg SD",
-        "Mikus 2017, Midazolam alone",
-        "Kharasch 2012, Alfentanil + Efavirenz 600 mg OD",
-        "Kharasch 2012, Alfentanil IV alone",
-        "Kharasch 2012, Alfentanil PO alone"
+        "Mikus 2017, Midazolam alone"
       ]
     }
   ]
