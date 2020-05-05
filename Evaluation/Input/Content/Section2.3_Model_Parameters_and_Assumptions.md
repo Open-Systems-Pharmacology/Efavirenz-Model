@@ -10,7 +10,7 @@ After testing the available organ-plasma partition coefficient and cell permeabi
 
 Efavirenz is metabolized by CYP2B6, CYP3A4, CYP3A5, CYP1A2 and CYP2A6. 
 
-Induction of CYP3A4  ([Shou 2008](# 5 References)) and CYP2B6 ([Ke 2016](# 5 References)) was taken into account.
+Induction of CYP3A4  ([Shou 2008](#5-References)) and CYP2B6 ([Ke 2016](#5-References)) was taken into account.
 
 ### 2.3.4	Automated Parameter Identification
 
