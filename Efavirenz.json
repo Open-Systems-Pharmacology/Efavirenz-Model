@@ -7113,7 +7113,26 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 336.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 336.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 338.0,
               "Unit": "h"
             },
             {
@@ -7127,7 +7146,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 338.0,
               "Unit": "h"
             },
             {
