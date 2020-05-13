@@ -7,7 +7,7 @@
         },        
         {
             "Id": "Efavirenz",
-            "Path": "../../Efavirenz.json",
+            "Path": "../../Efavirenz-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": [
                 {
