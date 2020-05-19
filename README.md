@@ -13,6 +13,19 @@ This repository contains:
 
 **The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
 
+
+This repository contains:
+
+- a PK-Sim snapshot (*.json) file of the current PBPK model
+- static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
+- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
+
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](../../releases/latest).**
+
+**The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
+
+
+
 This efavirenz model is intended to be used as perpetrator drug in CYP3A4-mediated drug-drug interactions (DDI). 
 
 This  whole-body PBPK model of efavirenz has been developed using in particular published pharmacokinetic clinical data by Ogburn *et al.* 2010 [[1](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model#references)], Mouly *et al.* 1999 [[2](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model#references)], Xu *et al.* 2013 [[3](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model#references)], Dooley *et al.* 2012 [[4](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model#references)] , Garg et al. 2013 [[5](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model#references)] and Huang *et al.* 2012 [[6](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model#references)]. For the parameterization of CYP3A4 interaction, concentration-time profiles of efavirenz-midazolam interaction studies of Mikus *et al.* 2017  [[7](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model#references)] and Katzenmaier *et al.* 2010 [[8](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model#references)] were used. 
