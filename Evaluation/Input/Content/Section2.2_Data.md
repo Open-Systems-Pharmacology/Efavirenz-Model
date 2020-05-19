@@ -43,15 +43,3 @@ The following studies were used for parameterization of CYP3A4 interaction:
 | :-------------------------------- | :----------------------------------------------------------- |
 | [Mikus 2017](#5-References)       | Healthy subjects receiving a single oral dose of  400 mg Efavirenz at t=0h, 4 mg midazolam at t=12h and a single intravenous dose of 2 mg midazolam at t=18h. |
 | [Katzenmaier 2010](#5-References) | Healthy subjects receiving multiple oral doses of 400 mg efavirenz QD. On day 14, subjects receive a single oral midazolam dose of 3 mg. |
-
-
-
-#### 2.2.2.3	Verification of interaction using Alfentanil interaction studies
-
-The following study was used to verify CYP3A4 interaction, results are displayed in CYP3A4-Qualification:
-
-| Publication                    | Arm / Treatment / Information used for model building        |
-| :----------------------------- | :----------------------------------------------------------- |
-| [Kharasch 2012](#5-References) | Healthy subjects receiving a single iv dose of 0.015 mg/kg alfentanil following multiple doses of 600 mg efavirenz |
-
-

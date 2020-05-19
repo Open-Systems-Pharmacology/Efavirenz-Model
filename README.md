@@ -1,9 +1,17 @@
 # Efavirenz-Model
 Whole-body PBPK model of efavirenz as CYP3A4 perpetrator drug 
 
-**The latest release of this model including a report on model building, model features and model evaluation can be found [here](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model/releases/latest).**
+<a title="Efavirenz" href="https://commons.wikimedia.org/wiki/File:Efavirenz.png"><img width="512" alt="Efavirenz" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Efavirenz.png/512px-Efavirenz.png"></a>
 
-<a title="Yikrazuul / Public domain" href="https://commons.wikimedia.org/wiki/File:Efavirenz.png"><img width="512" alt="Efavirenz" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Efavirenz.png/512px-Efavirenz.png"></a>
+This repository contains:
+
+- a PK-Sim snapshot (*.json) file of the current PBPK model
+- static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
+- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
+
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model/releases/latest).**
+
+**The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
 
 This efavirenz model is intended to be used as perpetrator drug in CYP3A4-mediated drug-drug interactions (DDI). 
 

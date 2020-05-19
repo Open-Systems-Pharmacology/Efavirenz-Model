@@ -2230,84 +2230,9 @@
               }
             }
           ]
-        },
-        {
-          "Name": "LogP (Simcyp)",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 3.53,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Simcyp"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "LogP (experimental) (Dagenais)",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 3.0,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Dagenais 2009"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "LogP (GastroPlus)",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 3.37,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "GastroPlus"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "LogP (experimental) (Rodgers & Rowland)",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 3.1,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Rodgers and Rowland"
-              }
-            }
-          ]
         }
       ],
       "FractionUnbound": [
-        {
-          "Name": "Simcyp",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.032,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Simcyp"
-              }
-            }
-          ]
-        },
         {
           "Name": "Gertz et al. 2010",
           "Species": "Human",
@@ -2320,43 +2245,6 @@
                 "Method": "ParameterIdentification",
                 "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
               }
-            }
-          ]
-        },
-        {
-          "Name": "Lown et al. 1995",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.022,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Lown et al. 1995"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Björkman et al. 2001 (men)",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.016
-            }
-          ]
-        },
-        {
-          "Name": "Björkman et al. 2001 (women)",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.02
             }
           ]
         }
@@ -2372,6 +2260,7 @@
               "Unit": "mg/ml",
               "ValueOrigin": {
                 "Source": "Publication",
+                "Method": "InVitro",
                 "Description": "Heikkinen 2012"
               }
             },
@@ -2380,6 +2269,7 @@
               "Value": 5.0,
               "ValueOrigin": {
                 "Source": "Publication",
+                "Method": "InVitro",
                 "Description": "Heikkinen 2012"
               }
             }
@@ -2393,9 +2283,9 @@
               "Value": 0.049,
               "Unit": "mg/ml",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Heikkinen 2012"
               }
             },
             {
@@ -2403,6 +2293,7 @@
               "Value": 6.5,
               "ValueOrigin": {
                 "Source": "Publication",
+                "Method": "InVitro",
                 "Description": "Heikkinen 2012"
               }
             }
@@ -2418,6 +2309,7 @@
               "Unit": "mg/ml",
               "ValueOrigin": {
                 "Source": "Publication",
+                "Method": "InVitro",
                 "Description": "Heikkinen 2012"
               }
             },
@@ -2426,6 +2318,7 @@
               "Value": 5.0,
               "ValueOrigin": {
                 "Source": "Publication",
+                "Method": "InVitro",
                 "Description": "Heikkinen 2012"
               }
             }
@@ -2483,84 +2376,6 @@
           ]
         },
         {
-          "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Patki et al. 2003",
-          "Molecule": "CYP3A4",
-          "Metabolite": "1-OH-Midazolam",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax for liver microsomes",
-              "Value": 0.18,
-              "Unit": "nmol/min/mg mic. protein"
-            },
-            {
-              "Name": "Km",
-              "Value": 3.9,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Simcyp",
-          "Molecule": "CYP3A4",
-          "Metabolite": "1-OH-Midazolam",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 2.16,
-              "Unit": "pmol/min/pmol rec. enzyme"
-            },
-            {
-              "Name": "Km",
-              "Value": 2.16,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Optimized",
-          "Molecule": "UGT1A4",
-          "Metabolite": "Midazolam-N-glucuronide",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax for liver microsomes",
-              "Value": 276.0,
-              "Unit": "pmol/min/mg mic. protein"
-            },
-            {
-              "Name": "Content of CYP proteins in liver microsomes",
-              "Value": 58.0,
-              "Unit": "pmol/mg mic. protein",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Achour 2014"
-              }
-            },
-            {
-              "Name": "Km",
-              "Value": 37.8,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
-              }
-            },
-            {
-              "Name": "kcat",
-              "Value": 3.5911771641,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
-              }
-            }
-          ]
-        },
-        {
           "InternalName": "GlomerularFiltration",
           "DataSource": "Optimized",
           "Species": "Human",
@@ -2591,9 +2406,9 @@
               "Value": 4.0,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+                "Source": "Other",
+                "Method": "InVitro",
+                "Description": "aggregated from literature"
               }
             },
             {
@@ -2609,67 +2424,18 @@
           ]
         },
         {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Galentin et al. 2004",
-          "Molecule": "CYP3A4",
-          "Metabolite": "1-OH-Midazolam",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 1.96,
-              "Unit": "pmol/min/pmol rec. enzyme"
-            },
-            {
-              "Name": "Km",
-              "Value": 2.69,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
           "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Ito et al. 2003",
-          "Molecule": "CYP3A4",
-          "Metabolite": "1-OH-Midazolam",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax for liver microsomes",
-              "Value": 4.41,
-              "Unit": "nmol/min/mg mic. protein"
-            },
-            {
-              "Name": "Km",
-              "Value": 3.8,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "GastroPlus",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax for liver microsomes",
-              "Value": 850.0,
-              "Unit": "pmol/min/mg mic. protein"
-            },
-            {
-              "Name": "Km",
-              "Value": 4.0,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Klieber et al. 2008",
+          "DataSource": "Optimized",
           "Molecule": "UGT1A4",
           "Parameters": [
             {
               "Name": "In vitro Vmax for liver microsomes",
               "Value": 276.0,
-              "Unit": "pmol/min/mg mic. protein"
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Klieber 2008"
+              }
             },
             {
               "Name": "Content of CYP proteins in liver microsomes",
@@ -2683,7 +2449,21 @@
             {
               "Name": "Km",
               "Value": 37.8,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Klieber 2008"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 3.5911771641,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+              }
             }
           ]
         }
@@ -2705,10 +2485,6 @@
           "Name": "Molecular weight",
           "Value": 325.78,
           "Unit": "g/mol"
-        },
-        {
-          "Name": "Enable supersaturation",
-          "Value": 0.0
         }
       ]
     }
@@ -3664,17 +3440,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
           "Name": "End time",
           "Value": 696.0,
           "Unit": "h",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
         }
       ]
     }
@@ -7248,7 +7024,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7256,7 +7034,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7264,7 +7044,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7272,7 +7054,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7280,7 +7064,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7288,7 +7074,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7296,7 +7084,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7304,7 +7094,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7312,7 +7104,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7320,7 +7114,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7328,7 +7124,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7336,7 +7134,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7344,7 +7144,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7352,7 +7154,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7360,7 +7164,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7368,7 +7174,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7376,7 +7184,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7384,7 +7194,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7392,7 +7204,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7400,7 +7214,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7408,7 +7224,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7416,7 +7234,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         }
       ],
@@ -7483,14 +7303,6 @@
             {
               "AlternativeName": "FaSSIF",
               "GroupName": "COMPOUND_SOLUBILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Gertz et al. 2010",
-              "GroupName": "COMPOUND_FRACTION_UNBOUND"
             },
             {
               "AlternativeName": "Optimized",
@@ -7653,7 +7465,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7661,7 +7475,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7669,7 +7485,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7677,7 +7495,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7685,7 +7505,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7693,7 +7515,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7701,7 +7525,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7709,7 +7535,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7717,7 +7545,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7725,7 +7555,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7733,7 +7565,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7741,7 +7575,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7749,7 +7585,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7757,7 +7595,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7765,7 +7605,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7773,7 +7615,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7781,7 +7625,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7789,7 +7635,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7797,7 +7645,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7805,7 +7655,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7813,7 +7665,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -7821,7 +7675,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         }
       ],
@@ -7840,14 +7696,6 @@
             {
               "AlternativeName": "FaSSIF",
               "GroupName": "COMPOUND_SOLUBILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Gertz et al. 2010",
-              "GroupName": "COMPOUND_FRACTION_UNBOUND"
             },
             {
               "AlternativeName": "Optimized",
@@ -8103,7 +7951,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8111,7 +7961,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8119,7 +7971,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8127,7 +7981,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8135,7 +7991,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8143,7 +8001,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8151,7 +8011,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8159,7 +8021,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8167,7 +8031,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8175,7 +8041,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8183,7 +8051,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8191,7 +8061,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8199,7 +8071,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8207,7 +8081,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8215,7 +8091,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8223,7 +8101,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8231,7 +8111,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8239,7 +8121,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8247,7 +8131,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8255,7 +8141,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8263,7 +8151,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8271,7 +8161,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         }
       ],
@@ -8291,14 +8183,6 @@
             {
               "AlternativeName": "FaSSIF",
               "GroupName": "COMPOUND_SOLUBILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Gertz et al. 2010",
-              "GroupName": "COMPOUND_FRACTION_UNBOUND"
             },
             {
               "AlternativeName": "Optimized",
@@ -8620,7 +8504,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8628,7 +8514,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8636,7 +8524,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8644,7 +8534,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8652,7 +8544,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8660,7 +8554,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8668,7 +8564,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8676,7 +8574,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8684,7 +8584,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8692,7 +8594,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8700,7 +8604,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8708,7 +8614,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8716,7 +8624,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8724,7 +8634,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8732,7 +8644,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8740,7 +8654,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8748,7 +8664,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8756,7 +8674,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8764,7 +8684,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8772,7 +8694,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8780,7 +8704,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         },
         {
@@ -8788,7 +8714,9 @@
           "Value": 0.0019242177595,
           "Unit": "cm/min",
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
           }
         }
       ],
@@ -8807,14 +8735,6 @@
             {
               "AlternativeName": "FaSSIF",
               "GroupName": "COMPOUND_SOLUBILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Gertz et al. 2010",
-              "GroupName": "COMPOUND_FRACTION_UNBOUND"
             },
             {
               "AlternativeName": "Optimized",
@@ -10027,21 +9947,21 @@
             "MolWeight": 315.675
           },
           "Values": [
-            1479.246,
-            2289.06836,
-            2621.639,
-            2544.438,
-            2124.436,
-            1827.93115,
-            1394.671,
-            1353.83594,
-            1218.915,
-            931.772339,
-            595.934,
-            449.7534
+            1.4792459,
+            2.28906822,
+            2.621639,
+            2.54443812,
+            2.124436,
+            1.827931,
+            1.394671,
+            1.35383594,
+            1.218915,
+            0.9317723,
+            0.595934033,
+            0.4497534
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10192,17 +10112,17 @@
             "MolWeight": 315.68
           },
           "Values": [
-            1451.62317,
-            1852.08411,
-            2778.27539,
-            3110.179,
-            2847.795,
-            2209.706,
-            1845.88806,
-            1440.166
+            1.45162308,
+            1.852084,
+            2.77827525,
+            3.110179,
+            2.847795,
+            2.209706,
+            1.845888,
+            1.440166
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10348,17 +10268,17 @@
             "MolWeight": 315.68
           },
           "Values": [
-            2285.966,
-            3006.44214,
-            3715.49,
-            3955.979,
-            4013.596,
-            3021.192,
-            2760.24561,
-            2023.108
+            2.28596616,
+            3.006442,
+            3.71549,
+            3.955979,
+            4.013596,
+            3.02119184,
+            2.7602458,
+            2.023108
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10504,17 +10424,17 @@
             "MolWeight": 315.68
           },
           "Values": [
-            2868.89429,
-            5692.246,
-            6115.565,
-            6287.455,
-            5305.084,
-            4381.279,
-            4166.047,
-            3771.74
+            2.86889434,
+            5.69224644,
+            6.1155653,
+            6.287455,
+            5.30508375,
+            4.381279,
+            4.166047,
+            3.77174
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10663,20 +10583,20 @@
             "MolWeight": 315.68
           },
           "Values": [
-            1670.721,
-            2600.95581,
-            3482.75,
-            3650.667,
-            3230.0,
-            2967.513,
-            2912.14282,
-            2552.42529,
-            2323.021,
-            2237.14014,
-            1734.85791
+            1.67072093,
+            2.600956,
+            3.48275,
+            3.650667,
+            3.23,
+            2.96751285,
+            2.912143,
+            2.55242515,
+            2.323021,
+            2.23714,
+            1.73485792
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10825,17 +10745,17 @@
             "MolWeight": 315.68
           },
           "Values": [
-            2489.51,
-            3034.96484,
-            3720.27979,
-            3790.21,
-            3594.406,
-            3426.573,
-            2965.03516,
-            2293.706
+            2.48951,
+            3.034965,
+            3.72028,
+            3.79021,
+            3.59440613,
+            3.4265728,
+            2.9650352,
+            2.29370618
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11572,104 +11492,104 @@
             "MolWeight": 315.68
           },
           "Values": [
-            124.928009,
-            744.664,
-            37.291,
-            49.81,
-            175.006,
-            3630.351,
-            1577.143,
-            1376.83,
-            149.913,
-            500.461,
-            500.461,
-            825.97,
-            106.014,
-            1282.844,
-            731.984,
-            3605.232,
-            1163.917,
-            2835.279,
-            2378.306,
-            1821.194,
-            1833.616,
-            2528.451,
-            1232.677,
-            1802.317,
-            1946.29211,
-            2853.96,
-            1633.312,
-            775.713,
-            1551.845,
-            1501.776,
-            1094.881,
-            1733.361,
-            1846.055,
-            1639.473,
-            1238.847,
-            2553.401,
-            1526.708,
-            1952.37292,
-            1076.013,
-            1050.982,
-            1088.541,
-            1326.395,
-            2102.599,
-            944.557,
-            1564.186,
-            731.635,
-            1038.374,
-            975.77594,
-            894.399,
-            1902.223,
-            994.545959,
-            1232.418,
-            650.062,
-            825.345,
-            700.149,
-            1025.64,
-            581.204,
-            1751.792,
-            956.800049,
-            1501.401,
-            793.867,
-            643.632,
-            1620.167,
-            1826.73108,
-            1019.21,
-            693.711,
-            474.618,
-            768.828,
-            1338.289,
-            993.984,
-            580.856,
-            424.352,
-            662.242,
-            574.587,
-            1450.96484,
-            454.589,
-            498.407,
-            648.651,
-            730.028,
-            980.419,
-            385.74,
-            364.809,
-            702.846,
-            633.979,
-            364.809,
-            314.739,
-            427.415,
-            508.791962,
-            245.882,
-            231.21,
-            525.42,
-            199.911,
-            444.034,
-            444.034,
-            318.847015
+            0.124928005,
+            0.744664,
+            0.0372909978,
+            0.04981,
+            0.175005987,
+            3.630351,
+            1.577143,
+            1.37682986,
+            0.149913,
+            0.500461,
+            0.500461,
+            0.825969934,
+            0.106014,
+            1.282844,
+            0.731984,
+            3.605232,
+            1.163917,
+            2.835279,
+            2.378306,
+            1.821194,
+            1.833616,
+            2.528451,
+            1.2326771,
+            1.802317,
+            1.946292,
+            2.85396,
+            1.633312,
+            0.775713,
+            1.551845,
+            1.501776,
+            1.09488094,
+            1.73336089,
+            1.846055,
+            1.639473,
+            1.238847,
+            2.553401,
+            1.526708,
+            1.95237291,
+            1.076013,
+            1.05098212,
+            1.088541,
+            1.326395,
+            2.10259914,
+            0.944557,
+            1.5641861,
+            0.731635,
+            1.03837407,
+            0.975775957,
+            0.894399,
+            1.90222311,
+            0.994546,
+            1.232418,
+            0.650062,
+            0.825345,
+            0.700149,
+            1.02564,
+            0.581204,
+            1.751792,
+            0.956800044,
+            1.50140107,
+            0.793867,
+            0.643632,
+            1.620167,
+            1.826731,
+            1.01921,
+            0.693711,
+            0.474618018,
+            0.768828,
+            1.3382889,
+            0.993984044,
+            0.580856,
+            0.424352,
+            0.662242055,
+            0.574587,
+            1.45096493,
+            0.454588979,
+            0.498407,
+            0.648651,
+            0.730028033,
+            0.98041904,
+            0.385739982,
+            0.364808977,
+            0.70284605,
+            0.633979,
+            0.364808977,
+            0.314739019,
+            0.427415,
+            0.508792,
+            0.245882,
+            0.231210008,
+            0.52541995,
+            0.199911,
+            0.44403398,
+            0.44403398,
+            0.318847
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11875,118 +11795,118 @@
             "MolWeight": 315.68
           },
           "Values": [
-            34.062,
-            183.089,
-            159.051,
-            135.013,
-            110.974,
-            437.885,
-            115.876,
-            500.479,
-            2077.39429,
-            1250.486,
-            1486.061,
-            1135.102,
-            889.9,
-            471.633,
-            1418.754,
-            880.421,
-            1515.033,
-            1707.35,
-            1553.494,
-            1361.177,
-            2058.31,
-            1418.89,
-            2414.077,
-            1543.879,
-            1967.08,
-            1818.052,
-            1866.139,
-            755.568,
-            1063.249,
-            1337.296,
-            1524.795,
-            2116.117,
-            928.634,
-            640.321,
-            1270.114,
-            1154.73,
-            770.117,
-            1121.077,
-            2159.533,
-            1851.842,
-            1505.669,
-            1058.703,
-            515.447,
-            808.714966,
-            1275.048,
-            2116.39,
-            981.779968,
-            1236.586,
-            1424.085,
-            832.753,
-            1058.839,
-            1366.54,
-            943.476,
-            1265.579,
-            2183.844,
-            1039.619,
-            789.62,
-            366.545,
-            640.593,
-            1193.757,
-            1482.207,
-            818.749,
-            462.992,
-            866.826,
-            1155.296,
-            982.22,
-            501.453033,
-            924.518066,
-            463.264,
-            958.4539,
-            982.492,
-            746.917,
-            400.754,
-            540.187,
-            1155.568,
-            1030.569,
-            871.916,
-            747.178955,
-            819.294,
-            934.678,
-            482.767,
-            992.37,
-            453.921,
-            727.948,
-            420.268,
-            542.103943,
-            484.401031,
-            397.863,
-            912.284,
-            369.017,
-            369.017,
-            647.872,
-            686.323,
-            854.592,
-            535.777,
-            285.779,
-            367.509,
-            482.893036,
-            718.469,
-            680.007,
-            333.855,
-            309.817,
-            423.693,
-            303.501,
-            688.114,
-            226.578,
-            279.463,
-            274.655,
-            250.617
+            0.034062,
+            0.183089,
+            0.159051,
+            0.135013,
+            0.110974,
+            0.437885016,
+            0.115876,
+            0.500479043,
+            2.07739425,
+            1.250486,
+            1.486061,
+            1.135102,
+            0.8899,
+            0.471633,
+            1.418754,
+            0.880421,
+            1.515033,
+            1.7073499,
+            1.553494,
+            1.36117709,
+            2.05831,
+            1.41889012,
+            2.414077,
+            1.543879,
+            1.96707988,
+            1.818052,
+            1.866139,
+            0.755568,
+            1.063249,
+            1.337296,
+            1.524795,
+            2.116117,
+            0.928634,
+            0.640321,
+            1.27011406,
+            1.15473,
+            0.770117044,
+            1.12107706,
+            2.15953279,
+            1.851842,
+            1.50566888,
+            1.058703,
+            0.515447,
+            0.808715,
+            1.275048,
+            2.11638975,
+            0.98178,
+            1.23658609,
+            1.424085,
+            0.832753,
+            1.058839,
+            1.36654,
+            0.943476,
+            1.265579,
+            2.18384385,
+            1.03961909,
+            0.78962,
+            0.366545022,
+            0.640593052,
+            1.19375694,
+            1.48220706,
+            0.818749,
+            0.462992,
+            0.866826,
+            1.155296,
+            0.982219934,
+            0.501453042,
+            0.924518049,
+            0.463264,
+            0.958453953,
+            0.98249197,
+            0.746917,
+            0.400754,
+            0.540187,
+            1.155568,
+            1.03056908,
+            0.871916056,
+            0.747179,
+            0.819294035,
+            0.934677958,
+            0.482767016,
+            0.99237,
+            0.453921,
+            0.727948,
+            0.420268,
+            0.542103946,
+            0.484401017,
+            0.397863,
+            0.912284,
+            0.369016975,
+            0.369016975,
+            0.647872031,
+            0.686323,
+            0.854591966,
+            0.535777,
+            0.28577897,
+            0.367508978,
+            0.48289302,
+            0.718468964,
+            0.680007041,
+            0.333855,
+            0.309817,
+            0.423693,
+            0.303501,
+            0.688114047,
+            0.226578012,
+            0.279463023,
+            0.274655,
+            0.250617
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12206,45 +12126,45 @@
             "MolWeight": 315.68
           },
           "Values": [
-            460.252,
-            111.621,
-            2581.355,
-            833.175964,
-            334.451,
-            1424.045,
-            1806.611,
-            2295.785,
-            1990.7,
-            2426.6,
-            1985.92188,
-            2237.738,
-            1869.763,
-            1419.405,
-            1598.577,
-            1225.765,
-            1831.097,
-            1085.329,
-            1177.483,
-            1695.648,
-            1003.149,
-            1090.455,
-            1327.749,
-            979.075,
-            1269.771,
-            896.8901,
-            950.159,
-            946.145,
-            742.761,
-            834.765,
-            599.136,
-            536.182,
-            574.923,
-            562.054,
-            518.470032,
-            513.628
+            0.460252017,
+            0.111621,
+            2.58135486,
+            0.833176,
+            0.334451,
+            1.42404509,
+            1.806611,
+            2.295785,
+            1.9907,
+            2.4266,
+            1.985922,
+            2.23773813,
+            1.869763,
+            1.4194051,
+            1.598577,
+            1.225765,
+            1.831097,
+            1.085329,
+            1.177483,
+            1.695648,
+            1.003149,
+            1.09045494,
+            1.327749,
+            0.979075,
+            1.269771,
+            0.896890044,
+            0.950159,
+            0.946145,
+            0.742760956,
+            0.834765,
+            0.599136,
+            0.536182046,
+            0.574923,
+            0.562054038,
+            0.51847,
+            0.513628
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12391,21 +12311,21 @@
             "MolWeight": 315.68
           },
           "Values": [
-            3028.32886,
-            3215.297,
-            4059.49,
-            5521.24561,
-            5651.55762,
-            5022.663,
-            4484.41846,
-            3974.50415,
-            4076.487,
-            3549.575,
-            3266.289,
-            3039.66
+            3.028329,
+            3.215297,
+            4.05949,
+            5.52124548,
+            5.651558,
+            5.022663,
+            4.48441839,
+            3.97450423,
+            4.076487,
+            3.549575,
+            3.266289,
+            3.03966
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12528,21 +12448,21 @@
             "MolWeight": 315.68
           },
           "Values": [
-            2734.375,
-            2828.125,
-            2953.125,
-            4093.74976,
-            4921.875,
-            4765.625,
-            4093.74976,
-            3640.625,
-            3390.625,
-            3015.625,
-            2781.25,
-            2531.25
+            2.734375,
+            2.828125,
+            2.953125,
+            4.09375,
+            4.921875,
+            4.765625,
+            4.09375,
+            3.640625,
+            3.390625,
+            3.015625,
+            2.78125,
+            2.53125
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12665,21 +12585,21 @@
             "MolWeight": 315.68
           },
           "Values": [
-            1488.189,
-            1488.189,
-            1472.441,
-            1944.88208,
-            3125.984,
-            3094.488,
-            2748.031,
-            2322.835,
-            2039.37,
-            1818.898,
-            1692.91309,
-            1551.18091
+            1.488189,
+            1.488189,
+            1.472441,
+            1.94488215,
+            3.125984,
+            3.094488,
+            2.748031,
+            2.322835,
+            2.03937,
+            1.818898,
+            1.692913,
+            1.551181
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12833,21 +12753,21 @@
             "MolWeight": 315.68
           },
           "Values": [
-            1519.685,
-            1551.18091,
-            1740.157,
-            2574.80322,
-            3094.488,
-            3078.73975,
-            2527.559,
-            2196.85,
-            2007.8739,
-            1771.65393,
-            1629.9209,
-            1519.685
+            1.519685,
+            1.551181,
+            1.740157,
+            2.574803,
+            3.094488,
+            3.07874,
+            2.527559,
+            2.19685,
+            2.007874,
+            1.771654,
+            1.629921,
+            1.519685
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12970,19 +12890,19 @@
             "MolWeight": 315.68
           },
           "Values": [
-            1406.165,
-            1386.737,
-            1684.94592,
-            2557.73218,
-            3064.819,
-            3378.321,
-            3001.521,
-            2722.986,
-            2105.052,
-            1539.25708
+            1.406165,
+            1.386737,
+            1.684946,
+            2.557732,
+            3.064819,
+            3.378321,
+            3.001521,
+            2.722986,
+            2.105052,
+            1.539257
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13103,22 +13023,22 @@
             "MolWeight": 315.68
           },
           "Values": [
-            4161.074,
-            3006.711,
-            4255.034,
-            4671.141,
-            5100.671,
-            5234.899,
-            6751.678,
-            6362.416,
-            5463.08643,
-            5610.738,
-            4053.69116,
-            3046.98,
-            2389.262
+            4.161074,
+            3.006711,
+            4.255034,
+            4.671141,
+            5.100671,
+            5.23489857,
+            6.751678,
+            6.36241627,
+            5.46308661,
+            5.610738,
+            4.053691,
+            3.04698014,
+            2.389262
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13599,26 +13519,26 @@
             "MolWeight": 416.52
           },
           "Values": [
-            3.062645,
-            15.3132191,
-            21.2529,
-            22.36659,
-            24.68678,
-            26.63573,
-            29.41995,
-            27.09977,
-            22.73782,
-            18.83991,
-            13.82831,
-            9.651972,
-            5.197216,
-            2.784223,
-            1.484919,
-            0.8352668,
-            0.4640371
+            0.003062645,
+            0.0153132193,
+            0.0212529,
+            0.02236659,
+            0.02468678,
+            0.02663573,
+            0.0294199511,
+            0.02709977,
+            0.02273782,
+            0.01883991,
+            0.01382831,
+            0.009651972,
+            0.005197216,
+            0.002784223,
+            0.001484919,
+            0.000835266837,
+            0.0004640371
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13778,22 +13698,22 @@
             "MolWeight": 416.52
           },
           "Values": [
-            2.412993,
-            8.445476,
-            11.41531,
-            10.76566,
-            10.39443,
-            10.58005,
-            9.373549,
-            8.445476,
-            5.382831,
-            2.784223,
-            1.856148,
-            0.9280742,
-            0.3712297
+            0.002412993,
+            0.008445475,
+            0.0114153093,
+            0.0107656606,
+            0.01039443,
+            0.0105800508,
+            0.009373549,
+            0.008445475,
+            0.005382831,
+            0.002784223,
+            0.001856148,
+            0.0009280742,
+            0.000371229718
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13952,25 +13872,25 @@
             "MolWeight": 416.52
           },
           "Values": [
-            92.34758,
-            68.82812,
-            51.2987,
-            39.66471,
-            33.61985,
-            25.05741,
-            21.23869,
-            17.0366,
-            14.98069,
-            10.0,
-            7.184276,
-            4.064832,
-            2.216893,
-            1.34995508,
-            0.6840792,
-            0.3466519
+            0.09234758,
+            0.06882811,
+            0.0512987,
+            0.03966471,
+            0.03361985,
+            0.025057409,
+            0.0212386884,
+            0.0170366,
+            0.0149806906,
+            0.01,
+            0.00718427636,
+            0.004064832,
+            0.00221689278,
+            0.001349955,
+            0.0006840792,
+            0.0003466519
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14130,23 +14050,23 @@
             "MolWeight": 416.52
           },
           "Values": [
-            35.52482,
-            25.99523,
-            20.09979,
-            14.17737,
-            10.76254,
-            8.321713,
-            6.675259,
-            3.91818571,
-            2.475238,
-            1.043799,
-            0.40898,
-            0.1488923,
-            0.0295627415,
-            0.02285823
+            0.0355248153,
+            0.0259952284,
+            0.02009979,
+            0.0141773708,
+            0.0107625406,
+            0.008321713,
+            0.006675259,
+            0.003918186,
+            0.002475238,
+            0.0010437991,
+            0.00040898,
+            0.0001488923,
+            2.95627415E-05,
+            2.285823E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14628,20 +14548,20 @@
             "MolWeight": 325.77
           },
           "Values": [
-            5.11955,
-            18.01688,
-            17.52461,
-            13.7834,
-            10.73136,
-            7.18706,
-            4.922644,
-            3.248945,
-            2.461322,
-            1.575246,
-            1.279887
+            0.00511955,
+            0.01801688,
+            0.0175246112,
+            0.013783399,
+            0.0107313609,
+            0.00718705961,
+            0.00492264424,
+            0.00324894488,
+            0.00246132212,
+            0.001575246,
+            0.00127988693
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14794,21 +14714,21 @@
             "MolWeight": 325.77
           },
           "Values": [
-            32.68636,
-            42.43319,
-            23.72714,
-            20.37975,
-            17.22925,
-            14.37412,
-            12.60197,
-            10.43601,
-            6.793249,
-            4.331927,
-            2.658228,
-            1.870605
+            0.03268636,
+            0.04243319,
+            0.0237271413,
+            0.02037975,
+            0.01722925,
+            0.0143741192,
+            0.01260197,
+            0.0104360105,
+            0.006793249,
+            0.004331927,
+            0.002658228,
+            0.001870605
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14960,19 +14880,19 @@
             "MolWeight": 325.77
           },
           "Values": [
-            8.663854,
-            25.79465,
-            24.71167,
-            19.98594,
-            16.24473,
-            11.51899,
-            8.073136,
-            5.11955,
-            3.642757,
-            2.461322
+            0.008663854,
+            0.02579465,
+            0.0247116685,
+            0.0199859422,
+            0.01624473,
+            0.01151899,
+            0.008073136,
+            0.00511955,
+            0.003642757,
+            0.00246132212
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15125,22 +15045,22 @@
             "MolWeight": 325.77
           },
           "Values": [
-            2.067511,
-            36.42757,
-            52.96765,
-            31.8987389,
-            26.48383,
-            22.1519,
-            18.41069,
-            16.63854,
-            12.70042,
-            8.959212,
-            5.80872,
-            4.233474,
-            2.461322
+            0.002067511,
+            0.0364275724,
+            0.05296765,
+            0.03189874,
+            0.02648383,
+            0.0221519,
+            0.01841069,
+            0.01663854,
+            0.01270042,
+            0.008959212,
+            0.00580872037,
+            0.00423347345,
+            0.00246132212
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15290,16 +15210,16 @@
             "MolWeight": 315.68
           },
           "Values": [
-            1157.872,
-            832.577,
-            792.8741,
-            371.7849,
-            141.6425,
-            70.60027,
-            40.74549
+            1.157872,
+            0.83257705,
+            0.792874038,
+            0.371784925,
+            0.1416425,
+            0.07060027,
+            0.04074549
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15369,11 +15289,11 @@
         "Kharasch 2012 - Alfenatil IV + efavirenz - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)",
         "Katzenmaier 2010 - Midazolam + Efavirenz - Midazolam - PO - 3 mg - Plasma - agg. (n=12)",
         "Katzenmaier 2010 - Midazolam control - Midazolam - PO - 3 mg - Plasma - agg. (n=12)",
-        "Mikus 2017 - Efavirenz + Midazolam IV day 1 - Midazolam - IV - 2 mg - Plasma - agg. (n=12)",
         "Mikus 2017 - Efavirenz + Midazolam PO day 1 - Midazolam - PO - 4 mg - Plasma - agg. (n=12)",
-        "Mikus 2017 - Midazolam + Efavirenz - Efavirenz - PO - 400 mg - Plasma - agg. (n=12)",
+        "Mikus 2017 - Efavirenz + Midazolam IV day 1 - Midazolam - IV - 2 mg - Plasma - agg. (n=12)",
+        "Mikus 2017 - Midazolam control PO - Midazolam - PO - 4 mg - Plasma - agg. (n=12)",
         "Mikus 2017 - Midazolam control IV - Midazolam - IV - 2 mg - Plasma - agg. (n=12)",
-        "Mikus 2017 - Midazolam control PO - Midazolam - PO - 4 mg - Plasma - agg. (n=12)"
+        "Mikus 2017 - Midazolam + Efavirenz - Efavirenz - PO - 400 mg - Plasma - agg. (n=12)"
       ]
     }
   ],
@@ -15381,25 +15301,25 @@
     {
       "Name": "Single dose",
       "Classifiables": [
-        "Ogburn 2010, 600mg SD",
         "Xu 2013, 600mg SD EM",
         "Xu 2013, 600mg SD IM",
-        "Xu 2013, 600mg SD PM"
+        "Xu 2013, 600mg SD PM",
+        "Ogburn 2010, 600mg SD"
       ]
     },
     {
       "Name": "Multiple dose",
       "Classifiables": [
-        "Malvestutto 2014, 600mg PO OD",
-        "Liu 2008, 400 mg PO OD",
-        "Damle 2008, 600 mg PO OD",
+        "Mouly 2002, 200mg MD",
+        "Mouly 2002, 400mg MD",
         "Dooley 2012, 600mg MD EM",
         "Dooley 2012, 600mg MD IM",
         "Dooley 2012, 600mg MD PM",
         "Garg 2013, 600mg MD",
         "Huang 2012, 600mg MD",
-        "Mouly 2002, 200mg MD",
-        "Mouly 2002, 400mg MD",
+        "Liu 2008, 400 mg PO OD",
+        "Malvestutto 2014, 600mg PO OD",
+        "Damle 2008, 600 mg PO OD",
         "Soon 2010, 600mg MD over 28 days"
       ]
     },

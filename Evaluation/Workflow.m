@@ -55,7 +55,7 @@ reportConfigurationPlan = 'report-configuration-plan.json';
 [WSettings, ConfigurationPlan, TaskList, ObservedDataSets] = initializeQualificationWorkflow(reportConfigurationPlan, REInput_path, REOutput_path);
 
 %OPTIONAL: set watermark. If set, it will appear in all generated plots
-%WSettings.Watermark = 'Preliminary';
+WSettings.Watermark = '';
 
 % run the Worklfow tasklist of ConfigurationPlan
 runQualificationWorkflow(WSettings, ConfigurationPlan, TaskList, ObservedDataSets);
