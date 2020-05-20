@@ -6,4 +6,6 @@ It has a long half-life, ranging from 52 to 76 hours following single oral doses
 
 The presented efavirenz model was established using clinical PK data of 7 publications covering  a dosing range from 200 to 600 mg after single and multiple oral administration.  
 
-The herein presented model building and evaluation report evaluates the performance of the PBPK model for efavirenz in (healthy) adults. The established efavirenz PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/.../Compound-model).
+The herein presented model building and evaluation report evaluates the performance of the PBPK model for efavirenz in (healthy) adults. 
+
+The established efavirenz PBPK model is verified for the use as a perpetrator drug in drug-drug interaction simulations.
