@@ -6,7 +6,9 @@ First, a base mean model was built using clinical data including single and mult
 
 Unknown parameters (see below) were identified using the Parameter Identification module provided in PK-Sim®. Structural model selection was mainly guided by visual inspection of the resulting description of data and biological plausibility.
 
-Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
+CYP3A4 plays only a minor role in efavirenz metabolism, and, therefore, auto-induction of CYP3A4 plays a minor role for efavirenz pharmacokinetics. Hence, to parameterize CYP3A4 induction, midazolam was used as victim substance and Emax and EC50 were identified by adjusted by . 
+
+Details about input data (physicochemical, *in vitro* and clinical) can be found in  [Section 2.2](#22-Data).
 
 Details about the structural model and its parameters can be found in [Section 2.3](#23-Model-Parameters-and-Assumptions).
 

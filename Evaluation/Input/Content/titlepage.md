@@ -1,13 +1,15 @@
-# Building and Evaluation of a PBPK Model for Efavirenz in Adults
+# Building and evaluation of a PBPK model for efavirenz in healthy adults
 
 
 
-| Version                                         | TODO                                                         |
-| ----------------------------------------------- | ------------------------------------------------------------ |
-| Model file and Evaluation Report                | TODO                                                         |
-| based on *Model Snapshot* and *Evaluation Plan* | 1.0<br />(https://github.com/Open-Systems-Pharmacology/Efavirenz-Model/releases/tag/v1.0) |
-| OSP Version                                     | 9.0                                                          |
-| Qualification Framework Version                 | 2.1                                                          |
-| Author                                          | Thomas Wendl ([TWendl](https://github.com/TWendl))           |
+| Version     | x.x-OSPy.y            |
+| ----------- | --------------------- |
+| Based on Model Snapshot and Evaluation Plan | https://github.com/Open-Systems-Pharmacology/Efavirenz-Model/releases/tag/vx.x |
+| OSP Version | y.y                   |
+| Qualification Framework Version | z.z                   |
 
 
+
+This evaluation report and the corresponding PK-Sim project file are stored at:
+
+https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
