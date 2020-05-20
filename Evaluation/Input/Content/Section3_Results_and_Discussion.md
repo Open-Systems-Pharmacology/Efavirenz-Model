@@ -1,4 +1,4 @@
-The PBPK model for efavirenz was developed and evaluated using publically available, clinical pharmacokinetic data from studies listed in [Section 2.2.2](#222-Clinical-Data).
+The PBPK model for efavirenz was developed and evaluated using publicly available clinical pharmacokinetic data from studies listed in [Section 2.2.2](#222-Clinical-Data).
 
 The next sections show:
 
