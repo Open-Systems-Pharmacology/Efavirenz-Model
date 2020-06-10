@@ -3674,7 +3674,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Mouly 2002, 200mg MD",
           "OriginText": "Efavirenz\nMouly 2002, 200mg MD\n2020-03-19 13:36"
         }
       ],
@@ -3909,7 +3909,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Mouly 2002, 400mg MD",
           "OriginText": "Efavirenz\nMouly 2002, 400mg MD\n2020-03-19 13:37"
         }
       ],
@@ -4089,7 +4089,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Xu 2013, 600mg SD EM",
           "OriginText": "Efavirenz\nXu 2013, 600mg SD EM\n2020-03-19 11:55"
         }
       ],
@@ -4269,7 +4269,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Xu 2013, 600mg SD IM",
           "OriginText": "Efavirenz\nXu 2013, 600mg SD IM\n2020-03-19 11:55"
         }
       ],
@@ -4449,7 +4449,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Xu 2013, 600mg SD PM",
           "OriginText": "Efavirenz\nXu 2013, 600mg SD PM\n2020-03-19 11:56"
         }
       ],
@@ -4629,7 +4629,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Ogburn 2010, 600mg SD",
           "OriginText": "Efavirenz\nOgburn 2010, 600mg SD\n2020-03-19 11:53"
         }
       ],
@@ -4911,7 +4911,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Dooley 2012, 600mg MD EM",
           "OriginText": "Efavirenz\nDooley 2012, 600mg MD EM\n2020-03-19 12:14"
         },
         {
@@ -4963,7 +4963,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis 1",
+          "Name": "Dooley 2012, 600mg MD EM",
           "OriginText": "Efavirenz\nDooley 2012, 600mg MD EM\n2020-03-19 12:14"
         }
       ],
@@ -5245,7 +5245,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Dooley 2012, 600mg MD IM",
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "BottomInside",
@@ -5533,7 +5533,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Dooley 2012, 600mg MD PM",
           "OriginText": "Efavirenz\nDooley 2012, 600mg MD PM\n2020-03-19 13:21"
         }
       ],
@@ -5795,7 +5795,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Garg 2013, 600mg MD",
           "OriginText": "Efavirenz\nGarg 2013, 600mg MD\n2020-03-19 13:23"
         }
       ],
@@ -6062,7 +6062,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Huang 2012, 600mg MD",
           "OriginText": "Efavirenz\nHuang 2012, 600mg MD\n2020-03-19 13:35"
         }
       ],
@@ -6391,7 +6391,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Liu 2008, 400 mg PO OD",
           "OriginText": "Efavirenz\nLiu 2008, 400 mg PO OD\n2020-03-19 12:08"
         }
       ],
@@ -6653,7 +6653,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Malvestutto 2014, 600mg PO OD",
           "OriginText": "Efavirenz\nMalvestutto 2014, 600mg PO OD\n2020-03-19 11:54"
         }
       ],
@@ -6855,7 +6855,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Damle 2008, 600 mg PO OD",
           "OriginText": "Efavirenz\nDamle 2008, 600 mg PO OD\n2020-03-19 12:09"
         }
       ],
@@ -7390,7 +7390,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD",
           "OriginText": "Efavirenz\nKatzenmaier 2010, Midazolam +  Efavirenz 400mg MD\n2020-03-19 13:48"
         }
       ],
@@ -7783,7 +7783,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Katzenmaier 2010, Midazolam alone",
           "OriginText": "Efavirenz\nKatzenmaier 2010, Midazolam alone\n2020-03-19 13:49"
         }
       ]
@@ -8348,7 +8348,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Mikus 2017, Midazolam + Efavirenz 400mg SD",
           "FontAndSize": {
             "ChartWidth": 800,
             "ChartHeight": 500,
@@ -8831,7 +8831,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Mikus 2017, Midazolam alone",
           "OriginText": "Efavirenz\nMikus 2017, Midazolam alone\n2020-03-19 13:50"
         }
       ]
@@ -9167,7 +9167,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Soon 2010, 600mg MD over 28 days",
           "OriginText": "Efavirenz\nSoon 2010, 600mg MD over 28 days\n2020-03-19 13:41"
         }
       ],
