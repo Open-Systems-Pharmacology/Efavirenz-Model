@@ -375,6 +375,16 @@
         "AllPlots": [
             {
                 "Project": "Efavirenz",
+                "Simulation": "Derungs 2015, 50mg SD (control without Rifampicin)",
+                "SectionId": 331
+            },
+            {
+                "Project": "Efavirenz",
+                "Simulation": "Cho 2016, 600mg SD (control without Rifampicin)",
+                "SectionId": 331
+            },
+            {
+                "Project": "Efavirenz",
                 "Simulation": "Ogburn 2010, 600mg SD",
                 "SectionId": 331
             },
@@ -450,6 +460,21 @@
             },
             {
                 "Project": "Efavirenz",
+                "Simulation": "Ji 2008, 600mg QD",
+                "SectionId": 331
+            },
+            {
+                "Project": "Efavirenz",
+                "Simulation": "Kharasch 2012, 600mg QD",
+                "SectionId": 331
+            },
+            {
+                "Project": "Efavirenz",
+                "Simulation": "Kwara 2011, 600mg QD",
+                "SectionId": 331
+            },
+            {
+                "Project": "Efavirenz",
                 "Simulation": "Mikus 2017, Midazolam alone",
                 "SectionId": 332
             },
@@ -488,7 +513,21 @@
                                 "Project": "Efavirenz",
                                 "Simulation": "Ogburn 2010, 600mg SD",
                                 "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ogburn2010_600mg",
+                                "ObservedData": "Ogburn2010 - Efavirenz - 600mg sd",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Efavirenz",
+                                "Simulation": "Cho 2016, 600mg SD (control without Rifampicin)",
+                                "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cho 2016 - Efavirenz - PO - 600 mg SD - Plasma",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Efavirenz",
+                                "Simulation": "Derungs 2015, 50mg SD (control without Rifampicin)",
+                                "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Derungs 2015 - Efavirenz - PO - 50 mg SD - Plasma",
                                 "Color": "#FF0000"
                             },
                             {
@@ -544,13 +583,6 @@
                                 "Simulation": "Mouly 2002, 400mg MD",
                                 "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Mouly 2002 - 400 mg, Day 10 - Efavirenz - PO - 400 mg - Plasma - agg. (n=8)",
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Efavirenz",
-                                "Simulation": "Liu 2008, 400 mg PO OD",
-                                "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Liu 2008 - Group 1, efavirenz alone - Efavirenz - PO - 400 mg - Plasma - agg. (n=16)",
                                 "Color": "#0000FF"
                             },
                             {
@@ -621,6 +653,27 @@
                                 "Simulation": "Soon 2010, 600mg MD over 28 days",
                                 "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Soon 2010 - Efavirenz alone - Efavirenz - PO - 600 mg - Plasma - agg. (n=12)",
+                                "Color": "#0000FF"
+                            },
+                            {
+                                "Project": "Efavirenz",
+                                "Simulation": "Kwara 2011, 600mg QD",
+                                "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kwara2011 - Efavirenz - 600 mg qd",
+                                "Color": "#0000FF"
+                            },
+                            {
+                                "Project": "Efavirenz",
+                                "Simulation": "Kharasch 2012, 600mg QD",
+                                "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kharasch2012 - Efavirenz D15 - 600 mg qd",
+                                "Color": "#0000FF"
+                            },
+                            {
+                                "Project": "Efavirenz",
+                                "Simulation": "Kharasch 2012, 600mg QD",
+                                "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kharasch2012 - Efavirenz D1 - 600 mg qd",
                                 "Color": "#0000FF"
                             }
                         ]

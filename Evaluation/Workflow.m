@@ -11,8 +11,8 @@ if exist(fullfile(cd,'report'),'dir')>0 rmdir(fullfile(cd,'report'),'s'); end
 
 % --------------------------------------------------------------
 % replace qualificationRunnerFolder and markdownJoinerFolder with your paths
-qualificationRunnerFolder = 'C:\Open Systems Pharmacology\QualificationRunner 9.0.82';
-markdownJoinerFolder = 'C:\Open Systems Pharmacology\markdown-joiner 1.2.0.8';
+qualificationRunnerFolder = 'C:\Users\Laura Fuhr\Documents\Matlab\QualificationRunner 9.1.1';
+markdownJoinerFolder = 'C:\Users\Laura Fuhr\Documents\Matlab\markdown-joiner_neu';
 PKSimPortableFolder = 'C:\OSP\PK-Sim9.0.163';
 
 % --------------------------------------------------------------
@@ -47,7 +47,7 @@ ReportOutput_path=fullfile(basisDir,'report');
 
 % --------------------------------------------------------------
 % STEP #1: start qualification runner to generate inputs for the reporting engine
-startQualificationRunner(qualificationRunnerFolder, qualificationPlan, REInput_path, ['-p ' PKSimPortableFolder ' --logLevel Debug']);
+startQualificationRunner(qualificationRunnerFolder, qualificationPlan, REInput_path);
 
 % --------------------------------------------------------------
 % STEP #2: start reporting engine
@@ -69,7 +69,7 @@ fprintf('\n Qualification Workflow Duration: %0.1f minutes \n', QualificationWor
 MarkdownJoiner_path=['"' fullfile(markdownJoinerFolder,'markdown-joiner.exe') '"'];
 
 % alternative #1: ReportOutput_path must be empty. If not, report generation will fail
-status = system([MarkdownJoiner_path ' -i ' REOutput_path ' -o ' ReportOutput_path]);
+status = system([MarkdownJoiner_path ' -i "' REOutput_path '" -o "' ReportOutput_path '"']);
 
 % alternative #2: (CAUTION) ReportOutput_path will be cleared first
 %status = system([MarkdownJoiner_path ' -i ' REOutput_path ' -o ' ReportOutput_path ' -f']);

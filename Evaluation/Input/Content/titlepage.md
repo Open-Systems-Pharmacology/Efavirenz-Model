@@ -2,14 +2,11 @@
 
 
 
-| Version     | x.x-OSPy.y            |
+| Version     | 2.0-OSP9.1        |
 | ----------- | --------------------- |
-| Based on Model Snapshot and Evaluation Plan | https://github.com/Open-Systems-Pharmacology/Efavirenz-Model/releases/tag/vx.x |
-| OSP Version | y.y                   |
-| Qualification Framework Version | z.z                   |
+| Based on Model Snapshot and Evaluation Plan | https://github.com/Open-Systems-Pharmacology/Efavirenz-Model/releases/tag/v1.0 |
+|                                             | 9.1                |
+| Qualification Framework Version | 2.2                |
 
 
 
-This evaluation report and the corresponding PK-Sim project file are stored at:
-
-https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/

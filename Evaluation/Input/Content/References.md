@@ -1,10 +1,20 @@
 **Almond 2005** Almond LM, Hoggard PG, Edirisinghe D, Khoo SH, Back DJ. Intracellular and plasma pharmacokinetics of efavirenz in HIV-infected individuals. J Antimicrob Chemother. 2005 Oct;56(4):738-44. Epub 2005 Sep 1. PubMed PMID: 16141277.
 
+**Cho 2016** Cho DQ, Shen JH, Lemler SM, Skaar TC, Li L, Blievernicht J, Zanger UM, Kim KB, Shin JG, Flockhart DA, and Desta Z. Rifampin enhances cytochrome P450 (CYP) 2B6-mediated efavirenz 8-hydroxylation in healthy volunteers. Drug Metabolism and Pharmacokinetics, 2016, 31(2):107–116.
+
 **Cristofoletti 2013** Cristofoletti R, Nair A, Abrahamsson B, Groot DW, Kopp S, Langguth P, Polli JE, Shah VP, Dressman JB. Biowaiver monographs for immediate release solid oral dosage forms: efavirenz. J Pharm Sci. 2013 Feb;102(2):318-29. doi: 10.1002/jps.23380. Epub 2012 Nov 22. Review. PubMed PMID: 23175470.
+
+**Damle 2008** Damle B, LaBadie R, Crownover P, Glue P. Pharmacokinetic interactions of efavirenz and voriconazole in healthy volunteers. British Journal of Clinical Pharmacology, 2008, 65(4):523–530.
+
+**Derungs 2016** Derungs A, Donzelli M, Berger B, Noppen C, Krähenbühl S, Haschke M. Effects of cytochrome P450 inhibition and induction on the phenotyping metrics of the Basel Cocktail: A randomized crossover study. Clinical Pharmacokinetics, 2016, 55(1):79–91.
+
+**Desta 2019** Desta Z, Gammal RS, Gong L, Whirl-Carrillo M, Gaur AH, Sukasem C, Hockings J, Myers A, Swart M, Tyndale RF, Masimirembwa C, Iwuchukwu OF, Chirwa S, Lennox J, Gaedigk A, Klein TE, Haas DW. Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2B6 and efavirenz containing antiretroviral therapy. Clinical Pharmacology and Therapeutics, 2019 106(4):726–733.
 
 **Dooley 2012** Dooley KE, Park JG, Swindells S, Allen R, Haas DW, Cramer Y, Aweeka F, Wiggins I, Gupta A, Lizak P, Qasba S, van Heeswijk R, Flexner C; ACTG 5267 Study Team. Safety, tolerability, and pharmacokinetic interactions of the antituberculous agent TMC207 (bedaquiline) with efavirenz in healthy volunteers: AIDS Clinical Trials Group Study A5267. J Acquir Immune Defic Syndr. 2012 Apr 15;59(5):455-62. doi: 10.1097/QAI.0b013e3182410503. PubMed PMID: 22126739; PubMed Central PMCID: PMC3302922.
 
 **DrugBank DB00625** (https://www.drugbank.ca/drugs/DB00625), accessed 05-15-2020.
+
+**Fahmi 2016** Fahmi OA, Shebley M, Palamanda J, Sinz MW, Ramsden D, Einolf HJ, Chen L, Wang H. Evaluation of CYP2B6 induction and prediction of clinical drug-drug interactions: Considerations from the IQ consortium induction working group - An industry perspective. Drug Metabolism and Disposition, 2016, 44(10):1720–1730.
 
 **Garg 2013** Garg V, Chandorkar G, Yang Y, Adda N, McNair L, Alves K, Smith F, van Heeswijk RP. The effect of CYP3A inhibitors and inducers on the pharmacokinetics of telaprevir in healthy volunteers. Br J Clin Pharmacol. 2013 Feb;75(2):431-9. doi: 10.1111/j.1365-2125.2012.04345.x. PubMed PMID: 22642697; PubMed Central PMCID: PMC3579258.
 
@@ -14,6 +24,8 @@
 
 **Janneh 2009** Janneh O, Chandler B, Hartkoorn R, Kwan WS, Jenkinson C, Evans S, Back DJ, Owen A, Khoo SH. Intracellular accumulation of efavirenz and nevirapine is independent of P-glycoprotein activity in cultured CD4 T cells and primary human lymphocytes. J Antimicrob Chemother. 2009 Nov;64(5):1002-7. doi: 10.1093/jac/dkp335. Epub 2009 Sep 11. PubMed PMID: 19748977.
 
+**Ji 2008** P. Ji, B. Damle, J. Xie, S. E. Unger, D. M. Grasela, and S. Kaul. Pharmacokinetic interaction between efavirenz and carbamazepine after multiple-dose administration in healthy subjects. Journal of Clinical Pharmacology, 2008, 48(8):948–956.
+
 **Katzenmaier 2010** Katzenmaier S, Markert C, Mikus G. Proposal of a new limited sampling strategy to predict CYP3A activity using a partial AUC of midazolam. Eur J Clin Pharmacol. 2010 Nov;66(11):1137-41. doi: 10.1007/s00228-010-0878-2. Epub 2010 Aug 3. PubMed PMID: 20680253.
 
 **Ke 2016** Ke A, Barter Z, Rowland-Yeo K, Almond L. Towards a Best Practice Approach in PBPK Modeling: Case Example of Developing a Unified Efavirenz Model Accounting for Induction of CYPs 3A4 and 2B6. CPT Pharmacometrics Syst Pharmacol. 2016 Jul;5(7):367-76. doi: 10.1002/psp4.12088. Epub 2016 Jul 20. PubMed PMID: 27435752; PubMed Central PMCID: PMC4961080.
@@ -21,6 +33,12 @@
 **Kharasch 2012** Kharasch ED, Whittington D, Ensign D, Hoffer C, Bedynek PS, Campbell S, Stubbert K, Crafford A, London A, Kim T. Mechanism of efavirenz influence on methadone pharmacokinetics and pharmacodynamics. Clin Pharmacol Ther. 2012 Apr;91(4):673-84. doi: 10.1038/clpt.2011.276. Epub 2012 Mar 7.
 
 **Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model. CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134. Epub 2016 Oct 19.
+
+**Kwara 2011** Kwara A, Tashima KT, Dumond JB, Poethke P, Kurpewski J, Kashuba AD, Court MH, and Greenblatt DJ. Modest but variable effect of rifampin on steady-state plasma pharmacokinetics of efavirenz in healthy African-American and Caucasian volunteers. Antimicrobial Agents and Chemotherapy, 2011, 55(7):3527–3533.
+
+**Lui 2008** Liu P, Foster G, Labadie RR, Gutierrez MJ, Sharma A. Pharmacokinetic interaction between voriconazole and efavirenz at steady state in healthy male subjects. Journal of Clinical Pharmacology, 2008, 48(1):73–84.
+
+**Malvestutto 2014** Malvestutto CD, Ma Q, Morse GD, Underberg JA, Aberg JA. Lack of pharmacokinetic interactions between pitavastatin and efavirenz or darunavir/ritonavir. Journal of Acquired Immune Deficiency Syndromes, 2014, 67(4):390–396.
 
 **Meyer 2012** Meyer M, Schneckener S, Ludewig B, Kuepfer L, Lippert J. Using expression data for quantification of active processes in physiologically based pharmacokinetic modeling. Drug Metab Dispos. 2012 May;40(5):892-901.
 
@@ -38,6 +56,11 @@
 (trifluoromethyl)-2H-3,1-benzoxazin-2-one (DMP 266). Pharm Dev Technol. 1996 Apr;1(1):91-5. PubMed PMID: 9552335.
 
 **Shou 2008** Shou M, Hayashi M, Pan Y, Xu Y, Morrissey K, Xu L, Skiles GL. Modeling, prediction, and in vitro in vivo correlation of CYP3A4 induction. Drug Metab Dispos. 2008 Nov;36(11):2355-70. doi: 0.1124/dmd.108.020602. Epub 2008 Jul 31. PubMed PMID: 18669588.
+
+**Soon 2010** G. H. Soon, P. Shen, E. L. Yong, P. Pham, C. Flexner, and L. Lee. Pharmacokinetics
+of darunavir at 900 milligrams and ritonavir at 100 milligrams once daily when coadministered
+with efavirenz at 600 milligrams once daily in healthy volunteers. Antimicrobial
+Agents and Chemotherapy, 54(7):2775–2780, 2010.
 
 **Ward 2003** Ward BA, Gorski JC, Jones DR, Hall SD, Flockhart DA, Desta Z. The cytochrome P450 2B6 (CYP2B6) is the main catalyst of efavirenz primary and secondary metabolism: implication for HIV/AIDS therapy and utility of efavirenz as a substrate marker of CYP2B6 catalytic activity. J Pharmacol Exp Ther. 2003 Jul;306(1):287-300. Epub 2003 Apr 3. PubMed PMID: 12676886.
 
