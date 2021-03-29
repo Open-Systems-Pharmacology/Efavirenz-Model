@@ -11,8 +11,8 @@ if exist(fullfile(cd,'report'),'dir')>0 rmdir(fullfile(cd,'report'),'s'); end
 
 % --------------------------------------------------------------
 % replace qualificationRunnerFolder and markdownJoinerFolder with your paths
-qualificationRunnerFolder = 'C:\Users\Laura Fuhr\Documents\Matlab\QualificationRunner 9.1.1';
-markdownJoinerFolder = 'C:\Users\Laura Fuhr\Documents\Matlab\markdown-joiner_neu';
+qualificationRunnerFolder = 'C:\Open Systems Pharmacology\QualificationRunner 9.1.1';
+markdownJoinerFolder = 'C:\Open Systems Pharmacology\Matlab\markdown-joiner_neu';
 PKSimPortableFolder = 'C:\OSP\PK-Sim9.0.163';
 
 % --------------------------------------------------------------
