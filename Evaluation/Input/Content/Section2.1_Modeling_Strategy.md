@@ -6,7 +6,7 @@ First, a base mean model was built using clinical data including single and mult
 
 Unknown parameters (see below) were identified using the Parameter Identification module provided in PK-Sim®. Structural model selection was mainly guided by visual inspection of the resulting description of data and biological plausibility.
 
-CYP3A4 plays only a minor role in efavirenz metabolism, and, therefore, auto-induction of CYP3A4 plays a minor role for efavirenz pharmacokinetics. Hence, to parameterize CYP3A4 induction, midazolam was used as victim substance and Emax and EC50 were identified by adjusted by . 
+CYP3A4 plays only a minor role in efavirenz metabolism, and, therefore, auto-induction of CYP3A4 plays a minor role for efavirenz pharmacokinetics. Hence, to parameterize CYP3A4 induction, midazolam was used as victim substance to identify the respective model parameter `Emax` and `EC50` for induction. The respective parmater identification (please refer to [Section 2.3.4](#234-automated-parameter-identification)) was performed using the midazolam model [version 1.0](https://github.com/Open-Systems-Pharmacology/Midazolam-Model/releases/tag/v1.0). 
 
 Details about input data (physicochemical, *in vitro* and clinical) can be found in  [Section 2.2](#22-data).
 
