@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Midazolam",
-            "Path": "https://github.com/Open-Systems-Pharmacology/Midazolam-Model/releases/download/v1.0/Midazolam-Model.json"
+            "Path": "https://github.com/Open-Systems-Pharmacology/Midazolam-Model/releases/download/v1.1/Midazolam-Model.json"
         },        
         {
             "Id": "Efavirenz",
