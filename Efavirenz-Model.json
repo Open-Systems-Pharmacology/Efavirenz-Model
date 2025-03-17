@@ -10189,19 +10189,19 @@
           "Name": "Dissolution time (50% dissolved)",
           "Scaling": "Log",
           "LinkedParameters": [
-            "Ogburn 2010, 600mg SD|Applications|600mg_singleDose|Sustiva|Dissolution time (50% dissolved)",
-            "Xu 2013, 600mg SD EM|Applications|600mg_singleDose|Sustiva|Dissolution time (50% dissolved)",
-            "Xu 2013, 600mg SD IM|Applications|600mg_singleDose|Sustiva|Dissolution time (50% dissolved)",
-            "Xu 2013, 600mg SD PM|Applications|600mg_singleDose|Sustiva|Dissolution time (50% dissolved)",
-            "Garg 2013, 600mg MD|Applications|Garg2013|Sustiva|Dissolution time (50% dissolved)",
-            "Dooley 2012, 600mg MD EM|Applications|Dooley2012|Sustiva|Dissolution time (50% dissolved)",
-            "Dooley 2012, 600mg MD IM|Applications|Dooley2012|Sustiva|Dissolution time (50% dissolved)",
-            "Dooley 2012, 600mg MD PM|Applications|Dooley2012|Sustiva|Dissolution time (50% dissolved)",
-            "Huang 2012, 600mg MD|Applications|Huang2012|Sustiva|Dissolution time (50% dissolved)",
-            "Mouly 2002, 200mg MD|Applications|Mouly2002_200mg|Sustiva|Dissolution time (50% dissolved)",
-            "Mouly 2002, 400mg MD|Applications|Mouly2002_400mg|Sustiva|Dissolution time (50% dissolved)",
-            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD|Applications|400 mg Efavirenz OD over 14 days|Sustiva|Dissolution time (50% dissolved)",
-            "Mikus 2017, Midazolam + Efavirenz 400mg SD|Applications|400mg_singleDose|Sustiva|Dissolution time (50% dissolved)"
+            "Ogburn 2010, 600mg SD|Events|600mg_singleDose|Sustiva|Dissolution time (50% dissolved)",
+            "Xu 2013, 600mg SD EM|Events|600mg_singleDose|Sustiva|Dissolution time (50% dissolved)",
+            "Xu 2013, 600mg SD IM|Events|600mg_singleDose|Sustiva|Dissolution time (50% dissolved)",
+            "Xu 2013, 600mg SD PM|Events|600mg_singleDose|Sustiva|Dissolution time (50% dissolved)",
+            "Garg 2013, 600mg MD|Events|Garg2013|Sustiva|Dissolution time (50% dissolved)",
+            "Dooley 2012, 600mg MD EM|Events|Dooley2012|Sustiva|Dissolution time (50% dissolved)",
+            "Dooley 2012, 600mg MD IM|Events|Dooley2012|Sustiva|Dissolution time (50% dissolved)",
+            "Dooley 2012, 600mg MD PM|Events|Dooley2012|Sustiva|Dissolution time (50% dissolved)",
+            "Huang 2012, 600mg MD|Events|Huang2012|Sustiva|Dissolution time (50% dissolved)",
+            "Mouly 2002, 200mg MD|Events|Mouly2002_200mg|Sustiva|Dissolution time (50% dissolved)",
+            "Mouly 2002, 400mg MD|Events|Mouly2002_400mg|Sustiva|Dissolution time (50% dissolved)",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD|Events|400 mg Efavirenz OD over 14 days|Sustiva|Dissolution time (50% dissolved)",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD|Events|400mg_singleDose|Sustiva|Dissolution time (50% dissolved)"
           ],
           "Parameters": [
             {
@@ -10225,19 +10225,19 @@
           "Name": "Dissolution shape",
           "Scaling": "Linear",
           "LinkedParameters": [
-            "Ogburn 2010, 600mg SD|Applications|600mg_singleDose|Sustiva|Dissolution shape",
-            "Xu 2013, 600mg SD EM|Applications|600mg_singleDose|Sustiva|Dissolution shape",
-            "Xu 2013, 600mg SD IM|Applications|600mg_singleDose|Sustiva|Dissolution shape",
-            "Xu 2013, 600mg SD PM|Applications|600mg_singleDose|Sustiva|Dissolution shape",
-            "Dooley 2012, 600mg MD EM|Applications|Dooley2012|Sustiva|Dissolution shape",
-            "Dooley 2012, 600mg MD IM|Applications|Dooley2012|Sustiva|Dissolution shape",
-            "Dooley 2012, 600mg MD PM|Applications|Dooley2012|Sustiva|Dissolution shape",
-            "Garg 2013, 600mg MD|Applications|Garg2013|Sustiva|Dissolution shape",
-            "Huang 2012, 600mg MD|Applications|Huang2012|Sustiva|Dissolution shape",
-            "Mouly 2002, 200mg MD|Applications|Mouly2002_200mg|Sustiva|Dissolution shape",
-            "Mouly 2002, 400mg MD|Applications|Mouly2002_400mg|Sustiva|Dissolution shape",
-            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD|Applications|400 mg Efavirenz OD over 14 days|Sustiva|Dissolution shape",
-            "Mikus 2017, Midazolam + Efavirenz 400mg SD|Applications|400mg_singleDose|Sustiva|Dissolution shape"
+            "Ogburn 2010, 600mg SD|Events|600mg_singleDose|Sustiva|Dissolution shape",
+            "Xu 2013, 600mg SD EM|Events|600mg_singleDose|Sustiva|Dissolution shape",
+            "Xu 2013, 600mg SD IM|Events|600mg_singleDose|Sustiva|Dissolution shape",
+            "Xu 2013, 600mg SD PM|Events|600mg_singleDose|Sustiva|Dissolution shape",
+            "Dooley 2012, 600mg MD EM|Events|Dooley2012|Sustiva|Dissolution shape",
+            "Dooley 2012, 600mg MD IM|Events|Dooley2012|Sustiva|Dissolution shape",
+            "Dooley 2012, 600mg MD PM|Events|Dooley2012|Sustiva|Dissolution shape",
+            "Garg 2013, 600mg MD|Events|Garg2013|Sustiva|Dissolution shape",
+            "Huang 2012, 600mg MD|Events|Huang2012|Sustiva|Dissolution shape",
+            "Mouly 2002, 200mg MD|Events|Mouly2002_200mg|Sustiva|Dissolution shape",
+            "Mouly 2002, 400mg MD|Events|Mouly2002_400mg|Sustiva|Dissolution shape",
+            "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD|Events|400 mg Efavirenz OD over 14 days|Sustiva|Dissolution shape",
+            "Mikus 2017, Midazolam + Efavirenz 400mg SD|Events|400mg_singleDose|Sustiva|Dissolution shape"
           ],
           "Parameters": [
             {
@@ -10412,10 +10412,6 @@
     {
       "Name": "Ogburn2010_600mg",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Projects\\BAY_1002670_Vilaprisan_PBPK_support_0216\\Models\\Efavirenz\\Data\\Efavirenz_ObsData.xlsx.PlasmaConcentrations_SD"
-        },
         {
           "Name": "File",
           "Value": "Efavirenz_ObsData"
