@@ -1,10 +1,10 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.3/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Midazolam",
             "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Midazolam-Model/v1.1/Midazolam-Model.json"
-        },        
+        },
         {
             "Id": "Efavirenz",
             "Path": "../../Efavirenz-Model.json",
@@ -13,7 +13,7 @@
                     "Type": "Compound",
                     "Name": "Midazolam",
                     "Project": "Midazolam"
-                  }                
+                }
             ],
             "SimulationParameters": [
                 {
@@ -21,13 +21,13 @@
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
                     "TargetSimulations": [
-                      "Mikus 2017, Midazolam alone",
-                      "Mikus 2017, Midazolam + Efavirenz 400mg SD",
-                      "Katzenmaier 2010, Midazolam alone",
-                      "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
+                        "Mikus 2017, Midazolam alone",
+                        "Mikus 2017, Midazolam + Efavirenz 400mg SD",
+                        "Katzenmaier 2010, Midazolam alone",
+                        "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
@@ -37,8 +37,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
@@ -48,8 +48,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
@@ -59,8 +59,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
@@ -70,8 +70,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -81,8 +81,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
@@ -92,8 +92,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
@@ -103,8 +103,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
@@ -114,8 +114,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
@@ -125,8 +125,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
@@ -136,8 +136,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
@@ -147,8 +147,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
@@ -158,8 +158,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
@@ -169,8 +169,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
@@ -180,8 +180,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
@@ -191,8 +191,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
@@ -202,8 +202,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
@@ -213,8 +213,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
@@ -224,8 +224,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
@@ -235,8 +235,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
@@ -246,8 +246,8 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  },
-                  {
+                },
+                {
                     "Project": "Midazolam",
                     "Simulation": "po 3 mg (solution)",
                     "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
@@ -257,7 +257,7 @@
                         "Katzenmaier 2010, Midazolam alone",
                         "Katzenmaier 2010, Midazolam +  Efavirenz 400mg MD"
                     ]
-                  }
+                }
             ]
         }
     ],
@@ -478,7 +478,10 @@
                     "GMFE",
                     "Measure"
                 ],
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
                 "Groups": [
                     {
                         "Caption": "First dose administration",
