@@ -3417,7 +3417,7 @@
       "Name": "Ogburn 2010, 600mg SD",
       "Model": "4Comp",
       "ObservedData": [
-        "Ogburn2010_600mg"
+        "Ogburn 2010, 600mg SD"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -3477,7 +3477,7 @@
         {
           "Scaling": "Log",
           "Path": "Ogburn 2010, 600mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Ogburn2010_600mg"
+          "ObservedData": "Ogburn 2010, 600mg SD"
         }
       ],
       "Individual": "WhiteAmerican_standard",
@@ -3574,7 +3574,7 @@
             },
             {
               "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration ",
-              "X": "Ogburn2010_600mg|Time ",
+              "X": "Ogburn 2010, 600mg SD|Time ",
               "Y": "Ogburn 2010, 600mg SD|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|Concentration ",
               "CurveOptions": {
                 "Color": "#FF0000",
@@ -8605,7 +8605,7 @@
         {
           "Scaling": "Log",
           "Path": "Ogburn 2010, 600mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Ogburn2010_600mg"
+          "ObservedData": "Ogburn 2010, 600mg SD"
         },
         {
           "Scaling": "Log",
@@ -9099,8 +9099,8 @@
             ],
             "Curves": [
               {
-                "Name": "Ogburn2010_600mg-Efavirenz-Peripheral Venous Blood-Plasma-Concentration ",
-                "X": "Ogburn2010_600mg|Time ",
+                "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration ",
+                "X": "Ogburn 2010, 600mg SD|Time ",
                 "Y": "Ogburn 2010, 600mg SD|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|Concentration ",
                 "CurveOptions": {
                   "VisibleInLegend": false,
@@ -9111,7 +9111,7 @@
                 }
               },
               {
-                "Name": "Ogburn2010_600mg-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+                "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
                 "X": "Time",
                 "Y": "Ogburn 2010, 600mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
@@ -9174,8 +9174,8 @@
             ],
             "Curves": [
               {
-                "Name": "Ogburn2010_600mg-Efavirenz-Peripheral Venous Blood-Plasma-Concentration ",
-                "X": "Ogburn2010_600mg|Time ",
+                "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration ",
+                "X": "Ogburn 2010, 600mg SD|Time ",
                 "Y": "Ogburn 2010, 600mg SD|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|Concentration ",
                 "CurveOptions": {
                   "VisibleInLegend": false,
@@ -9186,7 +9186,7 @@
                 }
               },
               {
-                "Name": "Ogburn2010_600mg-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+                "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
                 "X": "Time",
                 "Y": "Ogburn 2010, 600mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
@@ -9220,7 +9220,7 @@
   ],
   "ObservedData": [
     {
-      "Name": "Ogburn2010_600mg",
+      "Name": "Ogburn 2010, 600mg SD",
       "ExtendedProperties": [
         {
           "Name": "File",
@@ -9324,7 +9324,7 @@
       "BaseGrid": {
         "Name": "Time ",
         "QuantityInfo": {
-          "Path": "Ogburn2010_600mg|Time ",
+          "Path": "Ogburn 2010, 600mg SD|Time ",
           "Type": "Time"
         },
         "DataInfo": {
@@ -14994,7 +14994,7 @@
     {
       "Name": "Efavirenz Single Dose",
       "Classifiables": [
-        "Ogburn2010_600mg",
+        "Ogburn 2010, 600mg SD",
         "Xu 2013 - CYP2B6*1/*1 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.",
         "Xu 2013 - CYP2B6*1/*6 genotype - Efavirenz - PO - 600 mg - Plasma - indiv.",
         "Xu 2013 - CYP2B6*6/*6 genotype - Efavirenz - PO - 600 mg - Plasma - indiv."

@@ -491,7 +491,7 @@
                                 "Project": "Efavirenz",
                                 "Simulation": "Ogburn 2010, 600mg SD",
                                 "Output": "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ogburn2010_600mg",
+                                "ObservedData": "Ogburn 2010, 600mg SD",
                                 "Color": "#FF0000"
                             },
                             {
