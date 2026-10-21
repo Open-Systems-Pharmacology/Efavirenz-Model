@@ -1,5 +1,7 @@
 {
-  "Version": 80,
+  "Name": "Efavirenz-Model",
+  "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -10,37 +12,45 @@
         {
           "Path": "CYP1A2|Reference concentration",
           "Value": 1.8,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP1A2|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP1A2|t1/2 (liver)",
           "Value": 39.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
-          "Value": 0.00029559748428
+          "Value": 0.00029559748428,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06
+          "Value": 4.4025157233e-06,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05
+          "Value": 2.4947589099e-05,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -57,65 +67,80 @@
         {
           "Path": "CYP2B6|Reference concentration",
           "Value": 1.56,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2B6|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2B6|t1/2 (liver)",
           "Value": 32.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0021211129296
+          "Value": 0.0021211129296,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0063502454992
+          "Value": 0.0063502454992,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.1043535188
+          "Value": 0.1043535188,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.5970540098
+          "Value": 0.5970540098,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -129,65 +154,80 @@
         {
           "Path": "CYP3A4|Reference concentration",
           "Value": 4.32,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (liver)",
           "Value": 37.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
+          "Value": 0.0041682898325,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
+          "Value": 0.00078691079081,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Value": 0.0053603428126,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
+          "Value": 0.00042695753798,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -204,61 +244,75 @@
         {
           "Path": "CYP3A5|Reference concentration",
           "Value": 0.04,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A5|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A5|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.0041810344828
+          "Value": 0.0041810344828,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1681034483
+          "Value": 0.1681034483,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1620689655
+          "Value": 0.1620689655,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -275,33 +329,40 @@
         {
           "Path": "CYP2A6|Reference concentration",
           "Value": 2.72,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2A6|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2A6|t1/2 (liver)",
           "Value": 26.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP2A6|Relative expression",
-          "Value": 0.00052810287531
+          "Value": 0.00052810287531,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP2A6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP2A6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP2A6|Relative expression",
-          "Value": 0.0051148677937
+          "Value": 0.0051148677937,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -314,11 +375,13 @@
       "Parameters": [
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|UGT1A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A4|Reference concentration",
@@ -331,12 +394,14 @@
         {
           "Path": "UGT1A4|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A4|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -361,16 +426,19 @@
         {
           "Path": "GABRG2|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "GABRG2|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|GABRG2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Interstitial, BloodCellsMembrane, VascMembranePlasmaSide"
@@ -617,7 +685,8 @@
             },
             {
               "Name": "Reference pH",
-              "Value": 0.0
+              "Value": 0.0,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -628,7 +697,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 2.9720579005E-05,
+              "Value": 2.9720579005e-05,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -659,12 +728,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 3.5,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 6.4,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -687,12 +758,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 0.6,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 8.3,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -715,12 +788,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 0.16,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 23.5,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -743,12 +818,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 0.6,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 19.1,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -771,12 +848,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 1.0,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 7.7,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -799,12 +878,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 2.268966,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 6.4,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -817,12 +898,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 1.448276,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 6.4,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -885,7 +968,8 @@
           "Parameters": [
             {
               "Name": "GFR fraction",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -897,16 +981,26 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "F",
-          "Value": 3.0
+          "Value": 3.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "Molecular weight",
           "Value": 315.675,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "Use bile salt micellization",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         }
       ]
     },
@@ -1070,7 +1164,8 @@
             {
               "Name": "Kd",
               "Value": 1.8,
-              "Unit": "nmol/l"
+              "Unit": "nmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1098,7 +1193,8 @@
             {
               "Name": "In vitro Vmax for liver microsomes",
               "Value": 850.0,
-              "Unit": "pmol/min/mg mic. protein"
+              "Unit": "pmol/min/mg mic. protein",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
@@ -1174,16 +1270,19 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "F",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "Molecular weight",
           "Value": 325.78,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         }
       ]
     }
@@ -1206,7 +1305,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -1219,7 +1319,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1248,17 +1349,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1267,7 +1371,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1304,17 +1409,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1323,7 +1431,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1360,17 +1469,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1379,7 +1491,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1416,17 +1529,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 400.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1435,7 +1551,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1472,17 +1589,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 1.0,
-                  "Unit": "mg/kg"
+                  "Unit": "mg/kg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1491,7 +1611,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1528,17 +1649,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1547,7 +1671,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1584,17 +1709,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 400.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1603,7 +1731,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1640,17 +1769,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1659,7 +1791,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1689,17 +1822,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 600.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1718,17 +1854,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 4.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1737,16 +1876,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1760,17 +1902,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 2.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 30.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1786,12 +1931,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1806,17 +1953,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 400.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1835,17 +1985,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 4.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1861,12 +2014,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1880,17 +2035,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 2.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Infusion time",
                   "Value": 30.0,
-                  "Unit": "min"
+                  "Unit": "min",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1906,12 +2064,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1933,17 +2093,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 1200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1952,7 +2115,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
@@ -1982,12 +2146,14 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 1.0,
-          "Unit": "mg/kg"
+          "Unit": "mg/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1999,17 +2165,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 3.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -2028,17 +2197,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 3.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2054,12 +2226,14 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2074,17 +2248,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 400.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "End time",
@@ -2104,17 +2281,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 200.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "End time",
@@ -2141,17 +2321,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 400.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -2160,16 +2343,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2184,17 +2370,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 400.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "End time",
@@ -2214,17 +2403,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 600.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "End time",
@@ -2244,17 +2436,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 600.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "End time",
@@ -2282,17 +2477,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2301,7 +2499,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2314,7 +2513,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2323,52 +2523,62 @@
         {
           "Path": "Events|Mouly2002_200mg|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_200mg|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_200mg|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_200mg|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_200mg|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_200mg|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_200mg|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_200mg|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_200mg|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_200mg|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2438,6 +2648,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2519,18 +2741,6 @@
           },
           "OriginText": "Efavirenz\nMouly 2002, 200mg MD\n2020-03-19 13:36"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -2547,17 +2757,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2566,7 +2779,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2579,7 +2793,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2588,52 +2803,62 @@
         {
           "Path": "Events|Mouly2002_400mg|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_400mg|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_400mg|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_400mg|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_400mg|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_400mg|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_400mg|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_400mg|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_400mg|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mouly2002_400mg|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2703,6 +2928,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2784,18 +3021,6 @@
           },
           "OriginText": "Efavirenz\nMouly 2002, 400mg MD\n2020-03-19 13:37"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -2811,17 +3036,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2830,7 +3058,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2843,7 +3072,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2852,7 +3082,8 @@
         {
           "Path": "Events|600mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2919,6 +3150,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2989,18 +3232,6 @@
           },
           "OriginText": "Efavirenz\nXu 2013, 600mg SD EM\n2020-03-19 11:55"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -3016,17 +3247,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3035,7 +3269,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3048,7 +3283,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3057,7 +3293,8 @@
         {
           "Path": "Events|600mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3122,6 +3359,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3194,18 +3443,6 @@
           },
           "OriginText": "Efavirenz\nXu 2013, 600mg SD IM\n2020-03-19 11:55"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -3221,17 +3458,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3240,7 +3480,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3253,7 +3494,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3262,7 +3504,8 @@
         {
           "Path": "Events|600mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3327,6 +3570,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3399,18 +3654,6 @@
           },
           "OriginText": "Efavirenz\nXu 2013, 600mg SD PM\n2020-03-19 11:56"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -3426,17 +3669,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -3445,7 +3691,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3458,7 +3705,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3467,7 +3715,8 @@
         {
           "Path": "Events|600mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3532,6 +3781,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3604,18 +3865,6 @@
           },
           "OriginText": "Efavirenz\nOgburn 2010, 600mg SD\n2020-03-19 11:53"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -3631,7 +3880,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -3700,7 +3950,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -3709,72 +3960,86 @@
         {
           "Path": "Events|Dooley2012|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -3839,6 +4104,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3980,18 +4257,6 @@
           },
           "OriginText": "Efavirenz\nDooley 2012, 600mg MD EM\n2020-03-19 12:14"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -4007,7 +4272,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4076,7 +4342,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4085,72 +4352,86 @@
         {
           "Path": "Events|Dooley2012|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4215,6 +4496,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4287,18 +4580,6 @@
           },
           "OriginText": "Efavirenz\nDooley 2012, 600mg MD IM\n2020-03-19 13:20"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -4314,7 +4595,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4383,7 +4665,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4392,72 +4675,86 @@
         {
           "Path": "Events|Dooley2012|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Dooley2012|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4522,6 +4819,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4594,18 +4903,6 @@
           },
           "OriginText": "Efavirenz\nDooley 2012, 600mg MD PM\n2020-03-19 13:21"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -4621,7 +4918,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4690,7 +4988,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4699,52 +4998,62 @@
         {
           "Path": "Events|Garg2013|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -4809,6 +5118,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4881,18 +5202,6 @@
           },
           "OriginText": "Efavirenz\nGarg 2013, 600mg MD\n2020-03-19 13:23"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -4908,7 +5217,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -4977,7 +5287,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -4986,57 +5297,68 @@
         {
           "Path": "Events|Huang2012|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Huang2012|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Huang2012|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Huang2012|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Huang2012|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Huang2012|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Huang2012|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Huang2012|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Huang2012|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Huang2012|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Huang2012|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5101,6 +5423,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5173,18 +5507,6 @@
           },
           "OriginText": "Efavirenz\nHuang 2012, 600mg MD\n2020-03-19 13:35"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -5202,7 +5524,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -5271,7 +5594,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -5280,97 +5604,116 @@
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg PO OD over 18 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5445,6 +5788,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5537,18 +5892,6 @@
           },
           "OriginText": "Efavirenz\nLiu 2008, 400 mg PO OD\n2020-03-19 12:08"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -5564,7 +5907,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -5633,7 +5977,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -5642,52 +5987,62 @@
         {
           "Path": "Events|Garg2013|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Garg2013|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5752,6 +6107,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5824,18 +6191,6 @@
           },
           "OriginText": "Efavirenz\nMalvestutto 2014, 600mg PO OD\n2020-03-19 11:54"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -5851,7 +6206,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -5876,47 +6232,56 @@
         {
           "Path": "Events|600 mg OD over 9 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|600 mg OD over 9 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|600 mg OD over 9 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|600 mg OD over 9 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|600 mg OD over 9 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|600 mg OD over 9 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|600 mg OD over 9 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|600 mg OD over 9 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|600 mg OD over 9 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -5981,6 +6346,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6051,18 +6428,6 @@
           },
           "OriginText": "Efavirenz-Model\nDamle 2008, 600 mg PO OD\n2021-09-09 19:07"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -6078,17 +6443,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 336.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6097,17 +6465,20 @@
             {
               "Name": "Start time",
               "Value": 336.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 338.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6116,17 +6487,20 @@
             {
               "Name": "Start time",
               "Value": 338.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 384.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -6135,82 +6509,98 @@
         {
           "Path": "Events|3 mg Midazolam po day 14|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|400 mg Efavirenz OD over 14 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -6540,6 +6930,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6612,18 +7014,6 @@
           },
           "OriginText": "Efavirenz-Model\nKatzenmaier 2010, Midazolam +  Efavirenz 400mg MD\n2021-09-09 19:04"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -6639,17 +7029,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -6658,17 +7051,20 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 24.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -6677,7 +7073,8 @@
         {
           "Path": "Events|3 mg Midazolam po|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -7047,7 +7444,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -7116,7 +7514,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7169,7 +7568,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -7178,17 +7578,20 @@
         {
           "Path": "Events|400mg_singleDose|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Events|Mikus2017_Midazolam-DDI|Application_2|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Mikus2017_Midazolam-DDI|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Events|Mikus2017_Midazolam-DDI|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -7528,6 +7931,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -7633,18 +8048,6 @@
           },
           "OriginText": "Efavirenz-Model\nMikus 2017, Midazolam + Efavirenz 400mg SD\n2021-09-09 19:05"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     },
     {
@@ -7661,17 +8064,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7680,7 +8086,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -7693,7 +8100,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -7746,21 +8154,24 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Mikus2017_Midazolam-alone|Application_2|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min"
-        },
-        {
           "Path": "Events|Mikus2017_Midazolam-alone|Midazolam_Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Events|Mikus2017_Midazolam-alone|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
@@ -8150,12 +8561,14 @@
             {
               "Name": "End time",
               "Value": 676.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8164,7 +8577,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -8177,7 +8591,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8202,7 +8617,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -8211,147 +8627,176 @@
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_22|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_23|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_24|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_25|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_26|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_27|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_28|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_29|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|Soon 2010 - 600 mg MD over 28 days|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -8416,6 +8861,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -8488,18 +8945,6 @@
           },
           "OriginText": "Efavirenz\nSoon 2010, 600mg MD over 28 days\n2020-03-19 13:41"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        }
       ]
     }
   ],
@@ -8535,12 +8980,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -8560,7 +9005,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -8726,15 +9171,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 10.0
+              "Value": 10.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8760,17 +9208,20 @@
             {
               "Name": "Start value",
               "Value": 3.4195647835,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 2.0,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 5.0,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8795,18 +9246,21 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.8762336462E-05,
-              "Unit": "cm/min"
+              "Value": 2.8762336462e-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 9.45E-07,
-              "Unit": "cm/min"
+              "Value": 9.45e-07,
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 0.00094493322661,
-              "Unit": "cm/min"
+              "Unit": "cm/min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8832,17 +9286,20 @@
             {
               "Name": "Start value",
               "Value": 38.9221460798,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 0.83,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 83.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8881,15 +9338,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 0.01
+              "Value": 0.01,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.001
+              "Value": 0.001,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 10.0
+              "Value": 10.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8915,15 +9375,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 5.2
+              "Value": 5.2,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.0
+              "Value": 0.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 10.0
+              "Value": 10.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8949,15 +9412,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 5.21
+              "Value": 5.21,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.0
+              "Value": 0.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 10.0
+              "Value": 10.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -8983,17 +9449,20 @@
             {
               "Name": "Start value",
               "Value": 59.9161540589,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
               "Value": 5.0,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
               "Value": 60.0,
-              "Unit": "min"
+              "Unit": "min",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -9018,15 +9487,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 0.2719568978
+              "Value": 0.2719568978,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.1
+              "Value": 0.1,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 2.0
+              "Value": 2.0,
+              "ValueOrigin": {}
             }
           ]
         },
@@ -9051,15 +9523,18 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 0.0059395257434
+              "Value": 0.0059395257434,
+              "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 0.003
+              "Value": 0.003,
+              "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 0.03
+              "Value": 0.03,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -9108,15 +9583,6 @@
                   "LegendIndex": 8,
                   "LineStyle": "None",
                   "Symbol": "Circle"
-                }
-              },
-              {
-                "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Ogburn 2010, 600mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#C04000",
-                  "LegendIndex": 31
                 }
               }
             ],
@@ -9183,15 +9649,6 @@
                   "LegendIndex": 8,
                   "LineStyle": "None",
                   "Symbol": "Circle"
-                }
-              },
-              {
-                "Name": "Ogburn 2010, 600mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Ogburn 2010, 600mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#C04000",
-                  "LegendIndex": 31
                 }
               }
             ],
@@ -9305,16 +9762,16 @@
           },
           "Values": [
             1.4792459,
-            2.28906822,
+            2.2890682,
             2.621639,
-            2.54443812,
+            2.5444381,
             2.124436,
             1.827931,
             1.394671,
-            1.35383594,
+            1.3538359,
             1.218915,
             0.9317723,
-            0.595934033,
+            0.59593403,
             0.4497534
           ],
           "Dimension": "Concentration (mass)",
@@ -9459,13 +9916,13 @@
               },
               "Values": [
                 0.9328712,
-                1.13287342,
+                1.1328734,
                 1.865908,
-                2.06590819,
-                1.53271353,
-                1.13287175,
-                1.06631732,
-                1.06639719
+                2.0659082,
+                1.5327135,
+                1.1328717,
+                1.0663173,
+                1.0663972
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -9480,9 +9937,9 @@
             "MolWeight": 315.68
           },
           "Values": [
-            1.45162308,
+            1.4516231,
             1.852084,
-            2.77827525,
+            2.7782753,
             3.110179,
             2.847795,
             2.209706,
@@ -9626,14 +10083,14 @@
                 "MolWeight": 315.68
               },
               "Values": [
-                1.33279288,
-                1.99918914,
-                3.19877934,
-                2.73213983,
-                1.79918969,
+                1.3327929,
+                1.9991891,
+                3.1987793,
+                2.7321398,
+                1.7991897,
                 1.732792,
-                1.93254757,
-                1.53279388
+                1.9325476,
+                1.5327939
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -9648,12 +10105,12 @@
             "MolWeight": 315.68
           },
           "Values": [
-            2.28596616,
+            2.2859662,
             3.006442,
             3.71549,
             3.955979,
             4.013596,
-            3.02119184,
+            3.0211918,
             2.7602458,
             2.023108
           ],
@@ -9795,13 +10252,13 @@
               },
               "Values": [
                 4.864774,
-                12.3948889,
+                12.394889,
                 7.930112,
                 5.731166,
-                4.19829226,
-                4.53157234,
+                4.1982923,
+                4.5315723,
                 4.66461,
-                3.86517644
+                3.8651764
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -9816,11 +10273,11 @@
             "MolWeight": 315.68
           },
           "Values": [
-            2.86889434,
-            5.69224644,
+            2.8688943,
+            5.6922464,
             6.1155653,
             6.287455,
-            5.30508375,
+            5.3050838,
             4.381279,
             4.166047,
             3.77174
@@ -9962,10 +10419,10 @@
                 "MolWeight": 315.68
               },
               "Values": [
-                0.674280763,
+                0.67428076,
                 0.9147476,
                 1.137034,
-                1.05695593,
+                1.0569559,
                 1.054517,
                 1.006067,
                 1.024192,
@@ -9987,17 +10444,17 @@
             "MolWeight": 315.68
           },
           "Values": [
-            1.67072093,
+            1.6707209,
             2.600956,
             3.48275,
             3.650667,
             3.23,
-            2.96751285,
+            2.9675128,
             2.912143,
-            2.55242515,
+            2.5524251,
             2.323021,
             2.23714,
-            1.73485792
+            1.7348579
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -10139,13 +10596,13 @@
                 "MolWeight": 315.68
               },
               "Values": [
-                1.76223791,
-                2.04195786,
+                1.7622379,
+                2.0419579,
                 1.944055,
                 1.636363,
-                1.62237716,
+                1.6223772,
                 1.986014,
-                1.87412608,
+                1.8741261,
                 1.804196
               ],
               "Dimension": "Concentration (mass)",
@@ -10165,10 +10622,10 @@
             3.034965,
             3.72028,
             3.79021,
-            3.59440613,
+            3.5944061,
             3.4265728,
             2.9650352,
-            2.29370618
+            2.2937062
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -10972,16 +11429,16 @@
           "Values": [
             0.124928005,
             0.744664,
-            0.0372909978,
+            0.037290998,
             0.04981,
-            0.175005987,
+            0.17500599,
             3.630351,
             1.577143,
-            1.37682986,
+            1.3768299,
             0.149913,
             0.500461,
             0.500461,
-            0.825969934,
+            0.82596993,
             0.106014,
             1.282844,
             0.731984,
@@ -11000,26 +11457,26 @@
             0.775713,
             1.551845,
             1.501776,
-            1.09488094,
-            1.73336089,
+            1.0948809,
+            1.7333609,
             1.846055,
             1.639473,
             1.238847,
             2.553401,
             1.526708,
-            1.95237291,
+            1.9523729,
             1.076013,
-            1.05098212,
+            1.0509821,
             1.088541,
             1.326395,
-            2.10259914,
+            2.1025991,
             0.944557,
             1.5641861,
             0.731635,
-            1.03837407,
-            0.975775957,
+            1.0383741,
+            0.97577596,
             0.894399,
-            1.90222311,
+            1.9022231,
             0.994546,
             1.232418,
             0.650062,
@@ -11028,38 +11485,38 @@
             1.02564,
             0.581204,
             1.751792,
-            0.956800044,
-            1.50140107,
+            0.95680004,
+            1.5014011,
             0.793867,
             0.643632,
             1.620167,
             1.826731,
             1.01921,
             0.693711,
-            0.474618018,
+            0.47461802,
             0.768828,
             1.3382889,
-            0.993984044,
+            0.99398404,
             0.580856,
             0.424352,
-            0.662242055,
+            0.66224205,
             0.574587,
-            1.45096493,
-            0.454588979,
+            1.4509649,
+            0.45458898,
             0.498407,
             0.648651,
-            0.730028033,
+            0.73002803,
             0.98041904,
-            0.385739982,
-            0.364808977,
+            0.38573998,
+            0.36480898,
             0.70284605,
             0.633979,
-            0.364808977,
-            0.314739019,
+            0.36480898,
+            0.31473902,
             0.427415,
             0.508792,
             0.245882,
-            0.231210008,
+            0.23121001,
             0.52541995,
             0.199911,
             0.44403398,
@@ -11091,85 +11548,85 @@
           0.9997917,
           0.9998221,
           1.000437,
-          1.00063956,
+          1.0006396,
           1.000778,
-          1.99907625,
-          1.99954331,
-          1.99977434,
-          1.99979532,
-          2.00033569,
-          2.00047278,
-          2.00057673,
-          2.00085258,
-          2.99926353,
-          2.99950361,
+          1.9990762,
+          1.9995433,
+          1.9997743,
+          1.9997953,
+          2.0003357,
+          2.0004728,
+          2.0005767,
+          2.0008526,
+          2.9992635,
+          2.9995036,
           2.999535,
-          3.00027132,
+          3.0002713,
           3.000333,
           3.0005672,
           3.00086,
           3.000889,
           3.9991827,
           3.999524,
-          3.99973154,
+          3.9997315,
           3.9997766,
           4.00005,
-          4.00011349,
-          4.00063658,
-          4.00093269,
+          4.0001135,
+          4.0006366,
+          4.0009327,
           4.999331,
           4.999721,
           4.999772,
           4.999889,
           5.000125,
           5.0002,
-          5.00083351,
+          5.0008335,
           5.000986,
           5.9990344,
           5.999242,
-          5.99931765,
-          5.99951458,
-          5.99983454,
-          5.99995947,
+          5.9993176,
+          5.9995146,
+          5.9998345,
+          5.9999595,
           6.000064,
           6.000593,
           7.99922,
           7.999543,
           7.999662,
-          7.99986553,
-          8.00013351,
+          7.9998655,
+          8.0001335,
           8.000433,
           8.000602,
-          8.00097752,
+          8.0009775,
           9.999182,
-          9.99937248,
+          9.9993725,
           9.999499,
           9.999642,
           9.999978,
-          10.0002947,
+          10.000295,
           10.0005,
-          10.0007343,
-          11.9990082,
-          11.9990568,
-          11.9990854,
+          10.000734,
+          11.999008,
+          11.999057,
+          11.999085,
           11.999506,
-          11.9998293,
-          12.0000629,
-          12.0009375,
-          24.0001049,
-          24.0001125,
-          24.0001583,
-          24.0005322,
+          11.999829,
+          12.000063,
+          12.000937,
+          24.000105,
+          24.000113,
+          24.000158,
+          24.000532,
           24.00088,
           24.000906,
-          47.9995079,
-          47.9998436,
+          47.999508,
+          47.999844,
           47.99987,
-          48.0001335,
+          48.000134,
           48.00025,
           48.000576,
-          48.0006676,
-          48.0007935,
+          48.000668,
+          48.000793,
           71.99906,
           71.99996,
           72.00035,
@@ -11292,10 +11749,10 @@
             0.159051,
             0.135013,
             0.110974,
-            0.437885016,
+            0.43788502,
             0.115876,
-            0.500479043,
-            2.07739425,
+            0.50047904,
+            2.0773942,
             1.250486,
             1.486061,
             1.135102,
@@ -11306,12 +11763,12 @@
             1.515033,
             1.7073499,
             1.553494,
-            1.36117709,
+            1.3611771,
             2.05831,
-            1.41889012,
+            1.4188901,
             2.414077,
             1.543879,
-            1.96707988,
+            1.9670799,
             1.818052,
             1.866139,
             0.755568,
@@ -11321,79 +11778,79 @@
             2.116117,
             0.928634,
             0.640321,
-            1.27011406,
+            1.2701141,
             1.15473,
-            0.770117044,
-            1.12107706,
-            2.15953279,
+            0.77011704,
+            1.1210771,
+            2.1595328,
             1.851842,
-            1.50566888,
+            1.5056689,
             1.058703,
             0.515447,
             0.808715,
             1.275048,
-            2.11638975,
+            2.1163898,
             0.98178,
-            1.23658609,
+            1.2365861,
             1.424085,
             0.832753,
             1.058839,
             1.36654,
             0.943476,
             1.265579,
-            2.18384385,
-            1.03961909,
+            2.1838439,
+            1.0396191,
             0.78962,
-            0.366545022,
-            0.640593052,
-            1.19375694,
-            1.48220706,
+            0.36654502,
+            0.64059305,
+            1.1937569,
+            1.4822071,
             0.818749,
             0.462992,
             0.866826,
             1.155296,
-            0.982219934,
-            0.501453042,
-            0.924518049,
+            0.98221993,
+            0.50145304,
+            0.92451805,
             0.463264,
-            0.958453953,
+            0.95845395,
             0.98249197,
             0.746917,
             0.400754,
             0.540187,
             1.155568,
-            1.03056908,
-            0.871916056,
+            1.0305691,
+            0.87191606,
             0.747179,
-            0.819294035,
-            0.934677958,
-            0.482767016,
+            0.81929404,
+            0.93467796,
+            0.48276702,
             0.99237,
             0.453921,
             0.727948,
             0.420268,
-            0.542103946,
-            0.484401017,
+            0.54210395,
+            0.48440102,
             0.397863,
             0.912284,
-            0.369016975,
-            0.369016975,
-            0.647872031,
+            0.36901698,
+            0.36901698,
+            0.64787203,
             0.686323,
-            0.854591966,
+            0.85459197,
             0.535777,
             0.28577897,
-            0.367508978,
+            0.36750898,
             0.48289302,
-            0.718468964,
-            0.680007041,
+            0.71846896,
+            0.68000704,
             0.333855,
             0.309817,
             0.423693,
             0.303501,
-            0.688114047,
-            0.226578012,
-            0.279463023,
+            0.68811405,
+            0.22657801,
+            0.27946302,
             0.274655,
             0.250617
           ],
@@ -11421,48 +11878,48 @@
           0.9986598,
           0.9991754,
           0.9997298,
-          1.00006974,
-          1.00024533,
+          1.0000697,
+          1.0002453,
           1.00032,
           1.000939,
-          1.00137365,
-          1.00147653,
-          1.99806535,
-          1.99927008,
-          1.99954045,
+          1.0013736,
+          1.0014765,
+          1.9980654,
+          1.9992701,
+          1.9995404,
           1.999574,
-          1.99963725,
+          1.9996372,
           2.000489,
-          2.00059175,
+          2.0005918,
           2.001621,
           2.001936,
           2.998906,
           2.999311,
-          2.99940848,
-          2.99966335,
+          2.9994085,
+          2.9996634,
           2.999806,
-          3.00105047,
+          3.0010505,
           3.001177,
-          3.00150728,
+          3.0015073,
           3.001648,
-          3.99857116,
+          3.9985712,
           3.998759,
-          3.99882531,
-          4.00008774,
-          4.00019455,
+          3.9988253,
+          4.0000877,
+          4.0001945,
           4.001259,
           4.001551,
           4.001816,
-          4.99831724,
+          4.9983172,
           4.998369,
           4.99906,
           4.999577,
-          5.00028944,
+          5.0002894,
           5.000423,
-          5.00098228,
+          5.0009823,
           5.001309,
-          5.00148535,
-          5.99833536,
+          5.0014853,
+          5.9983354,
           5.998555,
           5.998937,
           5.999128,
@@ -11470,57 +11927,57 @@
           5.999914,
           6.000401,
           6.001069,
-          6.00148249,
+          6.0014825,
           7.998254,
           7.998716,
-          7.99909639,
-          7.99932432,
+          7.9990964,
+          7.9993243,
           8.000283,
           8.000356,
           8.001004,
-          8.00122452,
+          8.0012245,
           8.001594,
           9.99816,
           9.998322,
           9.998757,
-          9.99891949,
+          9.9989195,
           9.999195,
           9.999431,
           9.999673,
-          10.0004206,
-          10.0012493,
-          11.9981709,
-          11.9996386,
-          12.0007315,
+          10.000421,
+          10.001249,
+          11.998171,
+          11.999639,
+          12.000731,
           12.00113,
           12.0015135,
           12.0015955,
-          12.0016146,
+          12.001615,
           12.00168,
           23.99857,
-          23.9993973,
-          23.9994678,
-          23.9996738,
-          23.9997654,
-          23.9999352,
-          24.0000038,
-          24.0010052,
+          23.999397,
+          23.999468,
+          23.999674,
+          23.999765,
+          23.999935,
+          24.000004,
+          24.001005,
           24.001524,
-          47.9982147,
+          47.998215,
           47.998745,
-          47.9992676,
-          47.9993553,
-          47.9994278,
-          47.9995956,
+          47.999268,
+          47.999355,
+          47.999428,
+          47.999596,
           47.99981,
-          48.0007553,
+          48.000755,
           71.99935,
           71.99969,
-          71.9997253,
+          71.999725,
           72.00005,
           72.0008,
           72.00122,
-          72.0018845
+          72.001884
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -11632,18 +12089,18 @@
             "MolWeight": 315.68
           },
           "Values": [
-            0.460252017,
+            0.46025202,
             0.111621,
-            2.58135486,
+            2.5813549,
             0.833176,
             0.334451,
-            1.42404509,
+            1.4240451,
             1.806611,
             2.295785,
             1.9907,
             2.4266,
             1.985922,
-            2.23773813,
+            2.2377381,
             1.869763,
             1.4194051,
             1.598577,
@@ -11653,19 +12110,19 @@
             1.177483,
             1.695648,
             1.003149,
-            1.09045494,
+            1.0904549,
             1.327749,
             0.979075,
             1.269771,
-            0.896890044,
+            0.89689004,
             0.950159,
             0.946145,
-            0.742760956,
+            0.74276096,
             0.834765,
             0.599136,
-            0.536182046,
+            0.53618205,
             0.574923,
-            0.562054038,
+            0.56205404,
             0.51847,
             0.513628
           ],
@@ -11831,14 +12288,14 @@
             "MolWeight": 315.68
           },
           "Values": [
-            3028.32886,
+            3028.3289,
             3215.297,
             4059.49,
-            5521.24561,
-            5651.55762,
+            5521.2456,
+            5651.5576,
             5022.663,
-            4484.41846,
-            3974.50415,
+            4484.4185,
+            3974.5042,
             4076.487,
             3549.575,
             3266.289,
@@ -12136,7 +12593,7 @@
             1.488189,
             1.488189,
             1.472441,
-            1.94488215,
+            1.9448822,
             3.125984,
             3.094488,
             2.748031,
@@ -12616,13 +13073,13 @@
             4.255034,
             4.671141,
             5.100671,
-            5.23489857,
+            5.2348986,
             6.751678,
-            6.36241627,
-            5.46308661,
+            6.3624163,
+            5.4630866,
             5.610738,
             4.053691,
-            3.04698014,
+            3.0469801,
             2.389262
           ],
           "Dimension": "Concentration (mass)",
@@ -12768,12 +13225,12 @@
               },
               "Values": [
                 "NaN",
-                1.31782889,
-                0.813953459,
+                1.3178289,
+                0.81395346,
                 0.591085,
-                0.455426216,
+                0.45542622,
                 0.4360462,
-                0.281007916,
+                0.28100792,
                 0.251938,
                 0.251938
               ],
@@ -12791,12 +13248,12 @@
           },
           "Values": [
             1.356589,
-            1.36627913,
-            2.11240315,
+            1.3662791,
+            2.1124032,
             1.715116,
             1.472868,
             1.21124,
-            1.01744211,
+            1.0174421,
             0.7945737,
             0.7267442
           ],
@@ -12940,7 +13397,7 @@
               "Values": [
                 1.327519,
                 1.647287,
-                1.92829382,
+                1.9282938,
                 1.405039,
                 1.705427,
                 1.32752,
@@ -12962,16 +13419,16 @@
             "MolWeight": 315.68
           },
           "Values": [
-            1.25968993,
+            1.2596899,
             1.705426,
             2.926357,
             2.5,
             2.325581,
-            2.09302282,
-            2.07364321,
-            1.88953507,
+            2.0930228,
+            2.0736432,
+            1.8895351,
             1.792636,
-            1.07558107
+            1.0755811
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -13114,17 +13571,17 @@
               "Values": [
                 "NaN",
                 0.01290024,
-                0.0147563806,
+                0.014756381,
                 0.01085847,
                 0.009930386,
                 0.0112296995,
                 0.01754061,
                 0.0138283,
-                0.0105800508,
+                0.010580051,
                 0.01187935,
-                0.00890950952,
+                0.0089095095,
                 0.006682135,
-                0.00408352725,
+                0.0040835273,
                 0.0025058,
                 0.0015777261,
                 0.0009280742,
@@ -13144,12 +13601,12 @@
           },
           "Values": [
             0.003062645,
-            0.0153132193,
+            0.015313219,
             0.0212529,
             0.02236659,
             0.02468678,
             0.02663573,
-            0.0294199511,
+            0.029419951,
             0.02709977,
             0.02273782,
             0.01883991,
@@ -13158,7 +13615,7 @@
             0.005197216,
             0.002784223,
             0.001484919,
-            0.000835266837,
+            0.00083526684,
             0.0004640371
           ],
           "Dimension": "Concentration (mass)",
@@ -13180,7 +13637,7 @@
           0.1555687,
           0.251088,
           0.325816,
-          0.493868142,
+          0.49386814,
           0.6617479,
           0.8300152,
           1.014468,
@@ -13310,15 +13767,15 @@
                 "NaN",
                 "NaN",
                 0.008631094,
-                0.00649652025,
+                0.0064965202,
                 0.006682137,
                 0.006310901,
                 0.006218098,
                 0.006774942,
                 0.005197216,
-                0.00269141514,
+                0.0026914151,
                 0.001392112,
-                0.00111368892,
+                0.0011136889,
                 "NaN"
               ],
               "Dimension": "Concentration (mass)",
@@ -13336,17 +13793,17 @@
           "Values": [
             0.002412993,
             0.008445475,
-            0.0114153093,
-            0.0107656606,
+            0.011415309,
+            0.010765661,
             0.01039443,
-            0.0105800508,
+            0.010580051,
             0.009373549,
             0.008445475,
             0.005382831,
             0.002784223,
             0.001856148,
             0.0009280742,
-            0.000371229718
+            0.00037122972
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -13363,19 +13820,19 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          336.575378,
-          336.652374,
-          336.746521,
-          336.857544,
-          336.987244,
+          336.57538,
+          336.65237,
+          336.74652,
+          336.85754,
+          336.98724,
           337.1543,
-          337.339264,
-          337.505829,
-          337.986755,
-          338.505035,
+          337.33926,
+          337.50583,
+          337.98676,
+          338.50504,
           338.987,
           339.4875,
-          340.507629
+          340.50763
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -13496,13 +13953,13 @@
                 "NaN",
                 "NaN",
                 0.0091858,
-                0.00673878472,
+                0.0067387847,
                 0.006245453,
-                0.00587136764,
+                0.0058713676,
                 0.004707986,
-                0.00377782038,
+                0.0037778204,
                 0.00248891,
-                0.00162996689,
+                0.0016299669,
                 0.0009925517,
                 0.0006658753,
                 0.000431308
@@ -13526,13 +13983,13 @@
             0.03966471,
             0.03361985,
             0.025057409,
-            0.0212386884,
+            0.021238688,
             0.0170366,
-            0.0149806906,
+            0.014980691,
             0.01,
-            0.00718427636,
+            0.0071842764,
             0.004064832,
-            0.00221689278,
+            0.0022168928,
             0.001349955,
             0.0006840792,
             0.0003466519
@@ -13686,16 +14143,16 @@
                 "NaN",
                 "NaN",
                 0.0044983183,
-                0.00367770181,
-                0.00326151913,
-                0.00244708383,
+                0.0036777018,
+                0.0032615191,
+                0.0024470838,
                 0.00153565,
-                0.00109906611,
-                0.000639122445,
-                0.000340914179,
-                0.000144930193,
-                8.9871E-05,
-                7.4722E-05
+                0.0010990661,
+                0.00063912245,
+                0.00034091418,
+                0.00014493019,
+                8.9871e-05,
+                7.4722e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -13710,11 +14167,11 @@
             "MolWeight": 416.52
           },
           "Values": [
-            0.0355248153,
-            0.0259952284,
+            0.035524815,
+            0.025995228,
             0.02009979,
-            0.0141773708,
-            0.0107625406,
+            0.014177371,
+            0.010762541,
             0.008321713,
             0.006675259,
             0.003918186,
@@ -13722,8 +14179,8 @@
             0.0010437991,
             0.00040898,
             0.0001488923,
-            2.95627415E-05,
-            2.285823E-05
+            2.9562741e-05,
+            2.285823e-05
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -13741,19 +14198,19 @@
         },
         "Values": [
           360.64212,
-          360.739166,
-          360.836334,
+          360.73917,
+          360.83633,
           360.9891,
-          361.155975,
-          361.322937,
-          361.489929,
+          361.15598,
+          361.32294,
+          361.48993,
           361.99118,
-          362.506531,
-          363.495483,
+          362.50653,
+          363.49548,
           364.49823,
-          365.500854,
-          366.502228,
-          367.506348
+          365.50085,
+          366.50223,
+          367.50635
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -13896,7 +14353,7 @@
             0.005815603,
             0.0043971627,
             0.002695035,
-            0.00170212809,
+            0.0017021281,
             0.00141844,
             0.0009929078,
             0.0008510638
@@ -14045,7 +14502,7 @@
                 0.016595751,
                 0.01333333,
                 0.009503546,
-                0.00765957031,
+                0.0076595703,
                 0.0043971627,
                 0.003829787,
                 0.00283688,
@@ -14066,7 +14523,7 @@
           },
           "Values": [
             0.03702128,
-            0.0510638319,
+            0.051063832,
             0.04241135,
             0.03503546,
             0.02539007,
@@ -14074,7 +14531,7 @@
             0.01517731,
             0.009929078,
             0.006666667,
-            0.00368794287,
+            0.0036879429,
             0.002411348,
             0.001985816
           ],
@@ -14221,15 +14678,15 @@
               "Values": [
                 0.005021097,
                 0.008959215,
-                0.00728551066,
+                0.0072855107,
                 0.004725735,
-                0.00462728227,
+                0.0046272823,
                 0.003347397,
                 0.001969058,
                 0.00137834,
-                0.00127988693,
+                0.0012798869,
                 0.00068917,
-                9.845233E-05
+                9.845233e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -14398,16 +14855,16 @@
               "Values": [
                 0.00708861,
                 0.008270039,
-                0.00492263958,
+                0.0049226396,
                 0.005021099,
-                0.00482418574,
-                0.00374120823,
+                0.0048241857,
+                0.0037412082,
                 0.00374121,
                 0.003052044,
                 0.001575246,
                 0.0009845288,
-                0.000689170149,
-                2.38E-10
+                0.00068917015,
+                2.38e-10
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -14576,8 +15033,8 @@
                 "MolWeight": 325.77
               },
               "Values": [
-                0.0104360105,
-                0.0154571114,
+                0.010436011,
+                0.015457111,
                 0.007088612,
                 0.00393811,
                 0.004036564,
@@ -14751,17 +15208,17 @@
               },
               "Values": [
                 0.0006891696,
-                0.00777777471,
+                0.0077777747,
                 0.009943741,
-                0.00630097836,
-                0.00492263958,
+                0.0063009784,
+                0.0049226396,
                 0.004036568,
                 0.004430378,
-                0.00364275416,
+                0.0036427542,
                 0.002264418,
-                0.00167369912,
+                0.0016736991,
                 0.000984529,
-                0.00167369912,
+                0.0016736991,
                 0.0007876232
               ],
               "Dimension": "Concentration (mass)",
@@ -14780,7 +15237,7 @@
             2.067511,
             36.42757,
             52.96765,
-            31.8987389,
+            31.898739,
             26.48383,
             22.1519,
             18.41069,
@@ -14809,8 +15266,8 @@
           6.0,
           6.25,
           6.5,
-          6.66666651,
-          6.83333349,
+          6.6666665,
+          6.8333335,
           7.0,
           7.25,
           7.5,
@@ -14938,7 +15395,7 @@
                 0.2572005,
                 0.1266549,
                 0.07032045,
-                0.0430846624,
+                0.043084662,
                 0.01875709
               ],
               "Dimension": "Concentration (mass)",
